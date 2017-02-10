@@ -1,0 +1,15 @@
+1.Najpier trzeba przejœæ do katalogu, w którym jest projekt i katalog ".git" wpisuj¹c np.:
+cd /media/sf_php_projekty/prework/Prework_CSS_Coderslab (tabulator podppowiada)
+2.Commitujemy zmiany instrukcj¹:
+git commit -am "task 1-2" (w czudzys³owie wpisujemy komentarza do naniesionych zmian)
+3.Wrzucamy zmiany na githuba
+git push origin master
+
+
+---
+
+Przydatne:
+
+git branch - poka¿e nam z której ga³êzi korzystamy
+git remote show origin - pokazuje, gdzie bêd¹ wypychane zmiany na githuba
+git clone git@github.com:wojtekszydlowski/Prework_CSS_CodersLab.git - klonujemy repozytorium z Githuba na swój komputer (aby wkleiæ skopiowany link z githuba nale¿y daæ SHIFT + (FN) + Instert)
