@@ -7,6 +7,7 @@ http://php.net/manual/pl/function.count.php
 count ($tablica) - podaje ilość elementów w tablicy
 in_array ($igła, $tablica) — Sprawdza czy wartość $igła istnieje w tablicy $tablica np. if( !in_array( $randNumber, $losowaneLiczby ) )
 array_sum ($tablica) — Oblicza sumę wszystkich wartości w tablicy $tablica
+unset ($tablica[$i]) - Usuwa z tablicy $tablica element o indeksie $i
 
 TABLICE można tworzyć na 3 sposoby:
 

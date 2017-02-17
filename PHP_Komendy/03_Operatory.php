@@ -1,5 +1,11 @@
 <?php
 /*
+ *
+Przykład:
+echo(7>3 ? "tak":"nie");
+To co przed znakiem zapytania - sprawdza czy to jest prawda, jeśli jest prawdą to wypisze to co znajudje się po znaku zapytania "?", a jeśli to fałsz wypisze to co po dwukropku ":". Wartość zero jest traktowana jako fałsz np. echo (0 ? "tak":"nie"); wypisze 0.
+Można używać skróconych zapisów np. echo($a ?: 5 ); - jeśeli a jest prawdą to nic nie wyświetlaj, a gdy nie jest prawdą to wyśwetlaj 5
+
  Stosowane operatory:
 || - lub (można napisać też OR)
 && - i (można napisać też AND)
