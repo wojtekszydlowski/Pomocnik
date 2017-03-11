@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OPP - teoria</title>
+</head>
+<body>
+
+<b></b>Klasa</b> to "szablon", "foremka" do tworzenia konkretnych egzemplarzy obiektów. Jest to struktura, która posiada swoje atrybuty (składowe) oraz metody (funkcje) które mogą zmieniać wartość tych atrybutów lub wykonywać inne operacje. Jest to plan, który opisuje stan i zachowanie obiektów klasy. Innymi słowy jest to schemat opisujący atrybuty i funkcje, które można wywołać na jakimś obiekcie. Na przykład klasa samochód definiuje, że każdy samochód musi mieć markę, liczbę drzwi, moc silnika oraz funkcje przyspieszania, hamowania i skręcania.<br><br>
+
+
+<b>Obiekt</b> to nic innego, jak wystąpienie (instancja) klasy — o ile klasa zawiera opis pewnego fragmentu rzeczywistości, o tyle obiekt konkretyzuje klasę. Obiekt jest zmienną typu klasy. Zmienna ta zostaje utworzona na podstawie klasy i stanowi rzeczywisty element, który może oddziaływać z innymi obiektami w programie. Jest to dokładna implementacja danej klasy uzupełniająca wszystkie atrybuty, na której można wywoływać funkcje. Na przykład obiekt $redCar ma markę Honda, czworo drzwi i moc silnika 120 KM.<br><br>
+
+-----<br><br>
+
+Cztery założenia programowania obiektowego:<br>
+1.Abstrakcja<br>
+2.Dziedziczenie<br>
+3.Hermetyzacja<br>
+4.Polimorfizm<br>
+5.Generalizacja<br>
+6.Specjalizacja<br><br>
+
+<b>Abstrakcja</b> - założenie, że klasa ma „chować” logikę, dzięki której otrzymujemy jakąś funkcjonalność. Czasami warto nie wiedzieć (nie ma potrzeby o tym wiedzieć) o jakiś szczegółach (np. jak działa silnik w aucie – nas interesuje że jak wcisnę gaz to jadę).<br><br>
+
+<b>Dziedziczenie</b> -  pozwala na tworzenie klas, które mogą być tworzone na podstawie innych wcześniej zdefiniowanych klas. Dzięki temu nowa klasa posiada funkcjonalność klasy, która stoi wyżej w hierarchii, a także nową funkcjonalność zdefiniowaną tylko dla niej (lub ewentualnie dla innych klas, które odziedziczą po niej). Innymi słowy dziedziczenie to sposób, w jaki jedna klasa może przejmować funkcjonalność innej klasy. Dziedziczenie jest ważne w momencie gdy zwiększamy poziom szczegółowości badanego zjawiska. Zawsze zaczynamy od opisania najbardziej ogólnego modelu (klasy), a w kolejnych krokach zgłębiając się w coraz większy poziom szczegółowości dziedzicząc zdefiniowane wcześniej, najważniejsze elementy. Używając dziedziczenia oszczędzamy czas i w znaczący sposób zmniejszamy ilość potrzebnego do działania aplikacji kodu źródłowego.W przypadku dziedziczenia mówimy też często o relacji rodzic – dziecko. W przypadku PHP rodzic może mieć wiele dzieci, ale dziecko może mieć tylko jednego rodzica.<br><br>
+
+<b>Hermetyzacja</b> - Głównym założeniem jest dbanie o bezpieczeństwo naszego kodu (klasa powinna chować kod i dane przed niezaplanowanym użyciem.). Ograniczamy dostęp do części zmiennych, metod, które wykonywane są wewnątrz określonej klasy. Dostęp do tych elementów jest tym samym ograniczony na zewnątrz. Jeśli utworzymy obiekt klasy, w której zastosowano hermetyzację, będziemy mieli ograniczony dostęp do części zasobów tej klasy. Aby mieć jednak dostęp do niektórych zasobów klasy, robimy to poprzez zastosowanie tzw. modyfikatorów czyli specjalnych słów kluczowych, które określają dostępność wskazanego elementu w naszym kodzie źródłowym. Są nimi następujące modyfkatory:<br>
+ - domyślny, public - modyfikator domyślny i public stosowane są zamiennie. Oznaczają one pełny dostęp do określonego elementu.<br>
+ - private - dostęp możliwy tylko w obrębie danej klasy. Elementów prywatnych nie można dziedziczyć.<br>
+ - protected - modyfikator bardzo podobny do modyfikatora private. Jedyna, ale bardzo kluczowa różnica jest taka, że elementy oznaczone tym modyfikatorem mogą być dziedziczone.<br>
+Dostęp do zmiennych prywatnych możemy również uzyskać za pomocą specjalnych metod get (pobieranie danych) i set (modyfikowanie danych).<br><br>
+
+<b>Polimorfizm</b> - przydatny jest, gdy chcemy utworzyć szereg klas według określonego schematu. Ponieważ w przypadku dziedziczenia nowo tworzona klasa może dziedziczyć naraz jedynie tylko jedną klasę, wprowadzono nową strukturę jaką jest interfejs. Interfejs pozwala na tworzenie szkieletu czegoś co kształtem przypomina klasę. W interfejsie możemy tworzyć tylko stałe oraz nagłówki metod (typ zwracany, nazwa, parametry). Implementując dowolny interfejs w danej klasie, musimy wypełnić go całkowicie treścią (wypełnić treścią wszystkie nagłówki metod). Polimorfizm to cecha dzięki której jeden interfejs może być stosowany do wykonania różnych zadań czyli w interfejsie tworzymy strukturę, która będzie wykorzystywana w różnych klasach, w zależności od potrzeb dostosowana do sytuacji.<br><br>
+
+<b>Generalizacja</b> - Opisuje relacje <b>jest</b> między obiektami. Na przykład owoc jest generalizacją zbioru: jabłko, gruszka, pomarańcza.<br><br>
+
+<b>Specjalizacja</b> - Oznacza, że każda klasa obiektów powinna się w czymś specjalizować. Jeżeli klasa obiektów nie ma swojej specjalizacji,
+powinna zostać wchłonięta przez klasę obiektów znajdujących się wyżej w hierarchii.<br><br>
+
+---------------<br><br>
+
+<b>Atrybuty klas</b> - Klasy mogą mieć wewnętrzne zmienne (zwane atrybutami). Atrybuty służą nam do trzymania danych w naszym obiekcie.<br>
+W PHP 5 atrybuty poprzedzamy jednym z modyfikatorów dostępu do takiego atrybutu. Mamy do wyboru:<br>
+-public - atrybut publiczny jest dostępny z każdego miejsca<br>
+-protected - atrybut jest widoczny tylkoz wnętrza danej klasy i klas dziedziczących<br>
+-private - atrybut prywatny jest dostępny tylko z wnętrza danej klasy<br><br>
+
+
+</body>
+</html>
