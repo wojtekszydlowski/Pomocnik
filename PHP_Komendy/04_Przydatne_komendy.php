@@ -7,7 +7,8 @@ if (!is_int( $godzina ) ) echo 'Podaj poprawną godzinę jako liczbę całkowit�
 
 pow ($liczba, $potega) - podnosi liczbę $liczba do potęgi $potega
 
-
+number_format ( float $liczba [, int $miejsc_dziesiętnych [, string $przecinek_dziesiętny ]], string $separator_tysięcy )
+np. $notacja_polska = number_format($liczba, 2, ',', ' ');
 
 
  */
