@@ -263,3 +263,11 @@ if ($conn->query($sql) === TRUE) {
 //Zmiana danych trzymanych w kolumnie
 # ALTER TABLE table_name MODIFY COLUMN column_name new_datatype;
 # np. ALTER TABLE users MODIFY COLUMN user_name varchar(30);
+
+// ------------------------------
+
+//Usunięcie tabeli
+# DROP TABLE table_name;
+
+//Usunięcie całej bazy danych
+# DROP DATABASE db_name;
