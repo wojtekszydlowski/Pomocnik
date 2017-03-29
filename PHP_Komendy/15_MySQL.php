@@ -1,4 +1,8 @@
 <?php
+
+#FUNCKJE DO WYKORZYSTANIA W MYSQL: https://www.w3schools.com/sql/sql_functions.asp
+
+
 //localhost/phpmyadmin
 //User: root
 //Hasło: coderslab
@@ -46,6 +50,28 @@ $conn->close();
 $conn = null;
 
 // ------------------------------
+
+# Przykład:
+
+//Stwórz poniżej odpowiednie zmienne z danymi do bazy
+$server = '127.0.0.1'; //== localhost  localhost == 127.0.0.1
+$username = 'root';
+$password = 'coderslab';
+$dbname = 'products_ex';
+
+//Poniżej napisz kod łączący się z bazą danych
+$conn = new mysqli($server,$username,$password,$dbname);
+
+if ($conn->connect_error) {
+    die ('Coś się popsuło...' . $conn->connect_error);
+    //Tutaj nigdy nie dojdzie.
+    //Nic dalej się nie wykona, nigdy.
+}
+else
+{echo 'Udało się połączyć...<br>';
+}
+$conn->close();
+$conn = null;
 
 //Tworzenie nowej bazy danych
 # CREATE DATABASE <nazwa_nowej_bazy>;
@@ -187,10 +213,20 @@ else
     echo("Brak wyników");
     }
 
+//Przykład - znajdź i wypisz wyniki, które są większe od średniej
+$sql = "SELECT name,rating FROM Movies WHERE rating > (SELECT AVG(rating) FROM Movies)";
+$result = $conn->query($sql);
+if ($result->num_rows > 0){
+    while ($row = $result->fetch_assoc()){
+        echo $row['name'] . ": " . $row['rating'] . "<br>";
+    }
+}
+
+
 //wczytywanie za pomocą pętli foreach
 $sql = "SELECT user_id, user_name FROM users";
 $result = $conn->query($sql);
-foreach($row as $result) {
+foreach($result as $row) {
 // Wypisz na ekran dane
     echo("id " . $row["user_id"]) .
         "imie" . $row["user_name"];
