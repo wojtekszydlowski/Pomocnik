@@ -1,0 +1,64 @@
+/*
+DODAWANIE ZEWNĘTRZNEGO ARKUSZA STRONY:
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!-- Zawartość strony -->
+</body>
+</html>
+
+
+IDENTYFIKATORY:
+Identyfikatory pozwalają odróżniać od siebie poszczególne elementy dokumentu HTML.
+Identyfikator może być nadany każdemu elementowi. Nadajemy go za pomocą atrybutu id.
+Atrybut id jest unikalnym identyfikatorem elementu. Możemy go przypisać tylko jednemu elementowi na stronie. </a>
+Elementowi możemy przypisać tylko jeden identyfikator.
+
+Przykłady:
+<h3 id="naglowek3">Nagłówek z id </h3>
+<a href="http://google.com" id="link">Link również może mieć swój identyfikator</a>
+<p id="tekst">Paragraf z identyfikatorem</p>
+
+#identyfikator
+Selektor poprzedzony znakiem hash (#) będzie odnosił się tylko do elementów strony o podanym id.
+
+Przykład:
+<p id="intro">Ten paragraf oznaczyłem za pomocąidentyfikatora intro. Będzie on zmieniony za pomocą stylowania css.</p>
+
+#intro {
+color: red;
+font-size: 12px;
+border: 1px solid black;
+}
+
+----
+
+KLASY:
+Klasy – tak jak identyfikatory – pozwalają odróżniać od siebie poszczególne elementy dokumentu HTML.
+Klasa może być nadana każdemu elementowi za pomocą atrybutu class.
+Od identyfikatorów odróżnia je możliwość nadania tej samej klasy wielu różnym elementom.
+Elementowi możemy przypisać więcej niż jedną klasę. W tym celu nazwy klas oddzielamy spacją
+
+<h3 class="naglowek">Nagłówek z klasą</h3>
+<a href="http://google.com" class="link tekst">Ten link ma dwie klasy</a>
+<p class="tekst">Paragraf ma tę samą klasę co powyższy link.</p>
+
+.klasa
+Selektor poprzedzony znakiem kropki odnosi się
+tylko do elementów strony o podanej klasie.
+
+Przykład:
+<h2 class="content">Nagłówek ma klasęcontent</h2>
+<p class="content">Ten paragraf oznaczyłem za pomocą klasy content.</p>
+<p class="content">Następny paragraf także oznaczyłem za pomocą klasy content.</p>
+
+.content {
+color: #00f;
+font-weight: bold;
+font-style: italic;
+}
+
+ */
