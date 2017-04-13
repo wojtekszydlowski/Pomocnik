@@ -87,3 +87,14 @@ var bar = undefined;
 //undefined reprezentuje wartość niezdefiniowaną, czyli jeżeli stworzymy zmienną i nic do niej nie przypiszemy, wywołanie jej zwróci undefined np.
 var maxValue;
 maxValue; //Konsola wypisze undefined
+
+
+
+//DOM - Document Object Model
+
+/*
+DOM to obiektowy model dokumentu. Z jego pomocą przeglądarki pozwalają projektantom zmieniać strony np. przez JavaScript. Ładując stronę internetową przeglądarka analizuje HTML i CSS i konweruje dokument w DOM. Ten DOM to duży obiekt zawierający wszystko co chcemy wiedzieć o stronie lub w niej zmienić. Każdy tag, jego atrybut i styl. Możemy używać właściwości i przywoływać funkcje powiązane z tym obiektem.
+ DOM jest modelem hierarchicznym i udostępnia zestaw obiektów odzwierciedlających dokument HTML oraz elementy okna przeglądarki. Jest to struktura drzewiasta, w której elementy niższego poziomu są węzłami elementów wyższego poziomu.
+ Dzięki DOM możemy w bardziej  zaawansowany sposób komunikować się z użytkownikiem (poprzez wczytywanie zawartości inputów albo dodawanie nowych
+ elementów do strony).
+ */
