@@ -175,7 +175,9 @@ document.addEventListener("DOMContentLoaded", function() {
     browserEdgeImage.style.backgroundImage = "url('assets/img/edge.png')";
 
     var browserEdgeLink = document.querySelectorAll(".ex3 a:nth-child(1)");
+    //var browserEdgeLink = document.querySelector(".ex3 a");
     console.log(browserEdgeLink);
+    console.log("--");
 
 
 });
