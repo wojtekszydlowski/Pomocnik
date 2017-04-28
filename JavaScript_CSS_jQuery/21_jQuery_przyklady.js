@@ -482,3 +482,109 @@ $(document).ready(function() {
 });
 
 //------------
+
+
+//----------------
+//-- FORMULARZE --
+//----------------
+
+
+/**
+ Walidacja karty kredytowej. Zadanie polega na walidacji kart kredytowych wpisywanych w formularz na stronie. Walidacja ma następować w czasie rzeczywistym (czyli po wprowadzeniu każdej cyfry). Nazwa karty ma być wpisana, jak tylko jest możliwe jej ustalenie. Poprawność karty ma być pokazana po wpisaniu odpowiedniej liczby cyfr.
+
+ Zasady rozpoznawania kart:
+
+ Karty Visa zaczynają się od cyfry 4.
+ Karty Mastercard zaczynają się od cyfry 5.
+ Karty American Express zaczynają się od cyfry 3. Następną cyfrą musi być 4 lub 7.
+
+ Zasady walidacji kart:
+
+ Karty Visa mają od 13 do 16 cyfr.
+ Karty Mastercard mają równo 16 cyfr.
+ Karty American Express mają równo 15 cyfr.
+
+ Zasady walidacji kart są uproszczone (nie powinniście ich stosować w rzeczywistych projektach). Jeżeli chcesz poznać prawdziwe zasady walidacji kart kredytowych, to są one opisane tutaj: https://en.wikipedia.org/wiki/Bank_card_number https://en.wikipedia.org/wiki/Luhn_algorithm
+
+
+ */
+
+function defineCompanyCard (number) {
+    var companyCard = "";
+    var firstDigit = Number(number[0]);
+    var secondDigit = Number(number[1]);
+    if (firstDigit == 4) {companyCard = "VS";}
+    if (firstDigit == 5) {companyCard = "MC";}
+    if (firstDigit == 3 && (secondDigit==4 || secondDigit==7)) {companyCard = "AE";}
+    return companyCard;
+}
+
+function checkValidNumber (number, companyCard) {
+    //0 - błędny numer karty, 1-na razie ok, ale jeszcze niepełny numer, 2-numer karty prawidłowy
+    validNumber = 0;
+    if (companyCard.length==0 && number.length>2) {return validNumber;}
+    if (companyCard == "VS" && number.length<13) {var validNumber=1; return validNumber;}
+    if (companyCard == "VS" && number.length>12 && number.length<17) {var validNumber=2; return validNumber;}
+    if (companyCard == "VS" && number.length>16) {var validNumber=0; return validNumber;}
+    if (companyCard == "MC" && number.length<16) {var validNumber=1; return validNumber;}
+    if (companyCard == "MC" && number.length==16) {var validNumber=2; return validNumber;}
+    if (companyCard == "MC" && number.length>16) {var validNumber=0; return validNumber;}
+    if (companyCard == "AE" && number.length<15) {var validNumber=1; return validNumber;}
+    if (companyCard == "AE" && number.length==15) {var validNumber=2; return validNumber;}
+    if (companyCard == "AE" && number.length>15) {var validNumber=0; return validNumber;}
+    return validNumber;
+
+}
+
+
+$(document).ready(function() {
+
+    var card = $('#card');
+    card.on("keyup", function (e) {
+        var cardNumber = ($(this).val());
+        var companyCard = defineCompanyCard(cardNumber);
+        $('#type').text(companyCard);
+        var validNumber = checkValidNumber(cardNumber, companyCard);
+        if (validNumber == 0) { $('#card').css("color", "red"); }
+        if (validNumber == 1) { $('#card').css("color", "black"); }
+        if (validNumber == 2) { $('#card').css("color", "green"); }
+
+        //console.log(cardNumber[0]); //pokazuje pierwszy znak z wpisanego tekstu
+    });
+
+});
+
+
+//-------------
+
+/**
+ Na stronie znajduje się formularz do zamówienia. Jest w nim sekcja odpowiedzialna za wystawienie faktury. Napisz kod JavaScript, który spowoduje, że sekcja ta jest widoczna tylko i wyłącznie wtedy, kiedy zaznaczony jest checkbox "Chcę otrzymać fakturę".
+
+ FRAGMENT HTML:
+ <div class="checkbox">
+ <label><input type="checkbox" id="invoice"> Faktura VAT</label>
+ </div>
+ <div class='form-group' id="invoiceData">
+ <label>NIP:</label>
+ <input type="text" class='form-control' id='nip'>
+ <label>Adres firmy:</label>
+ <input type="text" class='form-control'  id='companyName'>
+ <label>Nazwa firmy:</label>
+ <input type="text" class='form-control'  id='companyAddress'>
+ </div>
+ */
+
+
+
+$(document).ready(function() {
+
+    var isChecked = ($('#invoice').prop("checked"));
+    if (isChecked == false) {$('#invoiceData').addClass("hidden");}
+    //$('#invoiceData').addClass("hidden");
+    $('#invoice').on("click", function () {
+        $('#invoiceData').toggleClass("hidden");
+    });
+});
+
+//------
+

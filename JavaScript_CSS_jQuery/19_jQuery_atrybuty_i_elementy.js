@@ -32,7 +32,7 @@
  <input type=”checkbox" value="test" id="test"/>
 
  JavaScript:
- $('#test').prop('checked');
+ $('#test').prop('checked');  //jeśli jest zaznaczony poda tru, jeśli nie false
 
 
  -----
