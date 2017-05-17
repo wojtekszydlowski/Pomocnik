@@ -98,14 +98,15 @@
  var firstOfBar = $(".bar").first();
  var newElement = $("<div class='new'> This is new element</div>");
 
- // <p class="bar">Hello</p>
- // <div class="new"> This is new element</div>
-
  firstOfBar.after(newElement);
- // <div class="new"> This is new element</div>
  // <p class="bar">Hello</p>
+ // <div class="new"> This is new element</div>
 
  firstOfBar.before(newElement);
+ // <div class="new"> This is new element</div>
+ // <p class="bar">Hello</p>
+
+
 
  -----
 

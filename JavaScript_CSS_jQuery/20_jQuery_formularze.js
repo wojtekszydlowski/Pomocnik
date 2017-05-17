@@ -147,6 +147,49 @@ $(document).ready(function() {
  none – powinien odznaczyć wszystkie inne opcje,
  all – powinien zaznaczyć wszystkie inne opcje (poza none).
 
+ <div class="container">
+ <div class='col-xs-12 col-sm-6 col-sm-offset-3'>
+ <div class='page-header'>
+ <h1>Dodatki</h1>
+ <p>
+ Kwota za dodatki: <span id="price">0zł</span>
+ </p>
+ </div>
+
+ <div class='panel'>
+ <div class='panel-body'>
+ <form>
+ <div class="checkbox">
+ <label><input type="checkbox">Wszystkie dodatki</label>
+ </div>
+ <div class="checkbox">
+ <label><input type="checkbox" data-price="3.50">Dodatkowy ser - 3,50zł</label>
+ </div>
+ <div class="checkbox">
+ <label><input type="checkbox" data-price="2.20">Dodatkowy sos - 2,20zł</label>
+ </div>
+ <div class="checkbox">
+ <label><input type="checkbox" data-price="5.00">Dodatkowa szynka - 5zł</label>
+ </div>
+ <div class="checkbox">
+ <label><input type="checkbox" data-price="4.10">Ananas - 4,10zł</label>
+ </div>
+ <div class="checkbox">
+ <label><input type="checkbox" data-price="3.50">Pieczarki - 3,50zł</label>
+ </div>
+ <div class="checkbox">
+ <label><input type="checkbox">Wyczyść</label>
+ </div>
+ <br>
+ <p>
+ <button class='btn btn-primary'>Submit</button>
+ </p>
+ </form>
+ </div>
+ </div>
+ </div>
+ </div>
+
  */
 
 
@@ -174,7 +217,7 @@ $(document).ready(function e() {
 
             }
             console.log("sumMoney:" + sumMoney);
-            $('#price').text(sumMoney.toFixed(2) + " zł"); //toFixed(2) zaorkągla da dwóch miejcu po przecinku
+            $('#price').text(sumMoney.toFixed(2) + " zł"); //toFixed(2) zaokrągla da dwóch miejcu po przecinku
         });
     });
 
