@@ -356,3 +356,94 @@ function randomDivide($tryNumber){
 }
 
 randomDivide (100);
+
+//------------------------
+
+
+#Zadanie 3:
+/**
+Napisz funkcję, która będzie losować liczby z przedziału -10 do 10. Napisz wyjątki tak, że jeśli zostanie wylosowana liczba 0 to wypisze na ekranie "Wylosowano 0", liczby ujemne będą wypisywane na czerwono, a gdy zostanie wylosowana liczba 10 zostanie uruchomiona funkcja SayHallo, która wypisze na ekranie "Hallo.
+
+ */
+
+function SayHallo () {
+    echo "Hallo<br>";
+}
+
+class LowerThanZero extends Exception {
+    public function __construct($message = "", $code = 0, Exception $previous = null)
+    {
+        parent::__construct($message, $code, $previous);
+    }
+}
+
+
+class EqualTen extends Exception {
+    public function __construct($message = "", $code = 0, Exception $previous = null)
+    {
+        parent::__construct($message, $code, $previous);
+    }
+
+}
+
+function randomNumber ($number){
+    for ($a = 0; $a < $number; $a++) {
+        try {
+            $currentRandomNumber = rand(-10, 10);
+            if ($currentRandomNumber < 0) {
+                throw new LowerThanZero ("$currentRandomNumber");
+            }
+
+            if ($currentRandomNumber == 10) {
+                throw new EqualTen ("$currentRandomNumber");
+            }
+            echo $currentRandomNumber . "<br>";
+
+        }
+        catch (LowerThanZero $e) {
+            echo "<font color= \"red\">". $e->getMessage() . "</font><br>";
+        }
+
+        catch (EqualTen $e) {
+            SayHallo ();
+        }
+    }
+}
+
+randomNumber(100);
+
+
+//------------------------------------------
+
+#Zadanie 4:
+
+class customException extends Exception {
+    public function errorMessage() {
+        //error message
+        $errorMsg = 'Error on line '.$this->getLine().' in '.$this->getFile()
+            .': <b>'.$this->getMessage().'</b> is not a valid E-Mail address';
+        return $errorMsg;
+    }
+}
+
+$email = "someone@example.com";
+
+try {
+    //check if
+    if(filter_var($email, FILTER_VALIDATE_EMAIL) === FALSE) {
+        //throw exception if email is not valid
+        throw new customException($email);
+    }
+    //check for "example" in mail address
+    if(strpos($email, "example") !== FALSE) {
+        throw new Exception("$email is an example e-mail");
+    }
+}
+
+catch (customException $e) {
+    echo $e->errorMessage();
+}
+
+catch(Exception $e) {
+    echo $e->getMessage();
+}

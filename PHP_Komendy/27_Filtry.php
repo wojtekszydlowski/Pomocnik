@@ -89,3 +89,13 @@ function checkArray ($array) {
 
 $array = array ('mail' =>'wojtekszydlowski@gmail.com', 'url' => 'http://www.google.com', 'ip'=>'79.123.123.3');
 var_dump (checkArray ($array));
+
+
+//------------------------
+
+#Przykład 2:
+
+$email = "john(.doe)@exa//mple.com";
+
+$email = filter_var($email, FILTER_SANITIZE_EMAIL);
+echo $email; //wypisze: john.doe@example.com

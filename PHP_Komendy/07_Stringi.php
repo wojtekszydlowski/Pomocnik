@@ -63,10 +63,13 @@ implode('_', explode(' ', $str)) //ala_ma_kota
 
 FUNKCJE NA STRINGACH:
 
+--
 strlen ($string) //Zwraca długość łańcucha znaków.
 
+--
 trim ($str [, string $character_mask = " \t\n\r\0\x0B" ] ) //Usuwa niechciane znaki (domyślnie białe znaki) z początku i końca łańcucha znaków.
 
+--
 strcmp (string $str1, string $str2)
 Porównuje dwa łańcuchy znaków.
 Zwraca następujące wartości:
@@ -75,31 +78,42 @@ Zwraca następujące wartości:
 0 – gdy oba łańcuchy znaków są takie same.
 Funkcja jest wykorzystywana do sortowania łańcucha znaków.
 
+--
 str_replace ($search , $replace , $subject [, int &$count ])
 Wyszukuje w $subject wystąpienia $search i zmienia je na $replace.
 $search i $replace mogą być również tablicami, wtedy są szukane wszystkie elementy z tablicy $search, następnie zamieniane są na odpowiadające im elementy tablicy $replace. Funkcja zwraca wynikowy łańcuch znaków.
 
+--
 strstr ($haystack , $needle [, bool $before_needle = false ])
 Znajduje pierwsze wystąpienie $needle w zmiennej $haystack. Zwraca część zmiennej $haystack od początku wystąpienia $needle do końca.
 Jeżeli $needle nie został znaleziony zwraca false.
 
+--
 strpos ( $haystack , $needle [, int $offset = 0 ] )
 Działa podobnie jak strstr, ale zwraca pozycję (indeks) pierwszego wystąpienia $needle. Jeżeli $needle nie został znaleziony zwraca false.
 
+--
 strtolower ($string) //Zwraca wejściowy łańcuch znaków po zamianie wszystkich liter na małe.
 
+--
 strtoupper ($string) //Zwraca wejściowy łańcuch znaków po zamianie wszystkie liter na wielkie.
 
+--
 ucfirst ($str) //Zwraca wejściowy łańcuch znaków po zamianie pierwszej litery na wielką.
 
+--
 ucwords ($str) //Zwraca wejściowy łańcuch znaków po zamianie pierwszej litery każdego wyrazu na wielką.
 
+--
 addslashes ($str) // Dodaje odwrotne ukośniki przez znakami, które tego wymagają, przykłądowo przy zapytaniach do bazy w celu uniknięcia sql injection
 
+--
 stripslashes ($str) //Usuwa działanie funkcji addslashes.
 
+--
 strip_tags ($str [, string $allowable_tags ]) //Usuwa tagi HTML z podanego łańcucha znaków.
 
+--
 parse_str (string $str [, array &$arr ]) //Analizuje wejściowy łańcuch znaków $str, traktuje go jako ciąg parametrów zapytania.
 Poszczególne parametry zapytania zapisywane są w tablicy $arr.
 
