@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JavaScript_CSS_jQuery/.idea/JavaScript_CSS_jQuery.iml" filepath="$PROJECT_DIR$/../JavaScript_CSS_jQuery/.idea/JavaScript_CSS_jQuery.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/PHP_Komendy.iml" filepath="$PROJECT_DIR$/.idea/PHP_Komendy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/.idea/WRO_PHP_W_01_Symfony.iml" filepath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/.idea/WRO_PHP_W_01_Symfony.iml" />
     </modules>
   </component>
 </project>

@@ -159,7 +159,7 @@ Nazwa Bundla powinna spełniać następujące warunki:
 Usuwanie Bundla:
 
 Krok 1:
-Usunąć wpis	(wszytskie linie) znajdujący się w pliku /app/config/routing.yml zaczynający się od nazwy	bundla.
+Usunąć wpis	(wszytskie linie) znajdujący się w pliku /app/config/routing.yml zaczynający się od nazwy bundla.
 
 np. Bundle o nazwie	Coderslab wygląda następująco:
 
