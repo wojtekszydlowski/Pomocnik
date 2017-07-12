@@ -155,8 +155,289 @@ if (!$post)	{
 $em->remove($post);
 $em->flush();
 
- */
 
+
+-------
+
+
+RELACJE:
+
+1.Wiele do jednego,	jednokierunkowa:
+Jest to relacja, w której:
+-encja A wie o jednej przypisanej do siebie encji B,
+-encja B nie wie nic o encjach A (może być przypisana do wielu).
+Użytkownik wie,	jaki ma	adres, ale adres nie ma	informacji o przypisanych do siebie użytkownikach.
+
+/**	@ORM\Entity	*/
+class	User{  //Encja	User
+    /**
+     *	@ORM\ManyToOne(targetEntity="Address") //Wskazanie	na	relację	z	encją	Address
+     *	@ORM\JoinColumn(name="address_id",	referencedColumnName="id")
+     */
+    private	$address;
+}
+
+class	Address{
+    /*	...	*/
+}
+
+/*
+--
+Opis:
+-class	User{  ->Encja	User
+-@ORM\ManyToOne(targetEntity="Address") ->Wskazanie	na	relację	z	encją	Address
+-@ORM\JoinColumn(name="address_id",	referencedColumnName="id") ->Wskazanie na relację kolumny address_id z encji User z	kolumną id z encji Address
+
+
+---
+
+2.Jeden do wielu, dwukierunkowa:
+Jest to relacja, w której:
+-encja A ma wiele encji B,
+-encja B może mieć tylko jedną encje A.
+-obie encje wiedzą o sobie.
+Jest to	na przykład produkt w sklepie internetowym i opinie o nim.
+Produkt	może mieć wiele opinii, ale opinia należy tylko	do jednego produktu.
+*/
+
+class Product{
+	/**
+	* @ORM\OneToMany(targetEntity="Review", mappedBy="product")
+	*/
+private	$reviews;
+
+public function __construct() {
+    $this->reviews = new ArrayCollection();
+   }
+}
+
+class Review{
+     /**
+     * @ORM\ManyToOne(targetEntity="Product", inversedBy="reviews")
+     * @ORM\JoinColumn(name="product_id", referencedColumnName="id")
+     */
+    private	$product;
+}
+
+/*
+Jeśli trzymamy relacje do wielu innych obiektów, to musimy specjalnie zainicjalizować atrybut naszej encji. Atrybut, który będzie trzymał wiele encji, musi być obiektem klasyArrayCollection. Musimy zatem pamiętać o podlinkowaniu obiektu ArrayCollection:
+
+use	Doctrine\Common\Collections\ArrayCollection;
+
+
+---
+
+3.Jeden do jednego, dwukierunkowa:
+W tej relacji obie encje wiedzą	o sobie	wzajemnie. Na przykład użytkownik wie o swoim koszyku, koszyk wie, do kogo jest przypisany.
+*/
+
+class Customer{
+	/**
+	* @ORM\OneToOne(targetEntity="Cart", mappedBy="customer")
+	*/
+
+	private $cart;
+}
+
+class	Cart{
+    /**
+     * @ORM\OneToOne(targetEntity="Customer", inversedBy="cart")
+     * @ORM\JoinColumn(name="customer_id", referencedColumnName="id")
+     */
+    private $customer;
+}
+
+/*
+----
+
+4.Wiele do wielu, dwukierunkowa:
+W tej relacji encja A wie o wielu encjach B, a encja B wie o wielu encjach A.
+Na przykład użytkownik może być w wielu grupach, a grupa ma wielu użytkowników.
+*/
+
+class User{
+		/**
+		* @ORM\ManyToMany(targetEntity="Group", inversedBy="users")
+		* @ORM\JoinTable(name="users_groups")
+		*/
+
+		private $groups;
+
+    public function	__construct() {
+    $this->groups = new ArrayCollection();
+    }
+}
+
+class Group{
+     /**
+     * @ORM\ManyToMany(targetEntity="User", mappedBy="groups")
+     */
+
+     private $users;
+
+     public function __construct()	{
+        $this->users = new ArrayCollection();
+    }
+}
+
+/*
+-------
+
+Wczytywanie połączonych encji:
+Wczytanie połączonej encji jest niezwykle proste. Wystarczy	odwołać	się	do atrybutu, który oznaczyliśmy	relacją, i otrzymujemy podłączoną	encję (lub tablicę encji):
+
+$em = $this->getDoctrine()->getManager();
+$customer = $em->getRepository('myBundle:Customer')->find($id);
+$cart = $customer->getCart();  //Mamy encje koszyka
+
+--
+
+Nastawianie	relacji:
+Aby ustawić relację	pomiędzy encjami, wystarczy	wstawić	encję odpowiedniej klasy do	atrybutu i zapamiętać stan bazy danych.
+
+$customer->setCart($cart);
+$em=$this->getDoctrine()->getManager();
+$em->persist($cart);
+$em->persist($customer);
+$em->flush();
+
+
+------------
+
+DOCTRINE QUERY LANGUAGE (DQL)
+
+Jeśli chcemy znaleźć naszą encję na podstawie bardziej rozbudowanego zapytania,	to możemy skorzystać z DQL.
+DQL jest językiem zapytań podobnym do SQL. W DQL nie myślimy w kategoriach bazy danych i jej tabel,	a w	kategoriach obiektów i ich klas. Dla osób znających	SQL	język DQL powinien być od razu zrozumiały.
+
+Zamiast	kolumn wybieramy cały obiekt, a	zamiast	tabeli - przeszukujemy naszą klasę.
+#SQL:
+SELECT * FROM Posts	WHERE raiting > 5;
+#DQL:
+SELECT post	FROM myBundle:Post post	WHERE post.raiting > 5
+
+#SQL:
+SELECT * FROM products WHERE price > 300.00	ORDER BY price DESC;
+#DQL:
+SELECT p FROM myBundle:Product p WHERE p.price > 300.00	ORDER BY p.price DESC
+
+
+Przygotowywanie	zapytań	DQL:
+Zapytania przygotowujemy, używając obiektu EntityManagera i	jego metody createQuery(). Tworzymy	wtedy obiekt zapytania.
+
+$em=$this->getDoctrine()->getManager();
+$query = $em->createQuery(
+'SELECT	p
+FROM myBundle:Product p
+WHERE p.price >	300.00
+ORDER BY p.price DESC'
+);
+
+
+Jeżeli chcemy dynamicznie nastawiać wartość, według	której będziemy wyszukiwać,	możemy przekazać do zapytania zmienną.
+$em=$this->getDoctrine()->getManager();
+$query = $em->createQuery(
+'SELECT	p
+FROM myBundle:Product p
+WHERE p.price > :priceToLook
+ORDER BY p.price DESC'
+)->setParameter('priceToLook', $somePrice);
+
+Jeśli przygotowaliśmy zapytanie, to możemy go użyć.
+Metoda ta zwraca nam tabelkę z wynikami (może być pusta!).
+W przypadku	gdy	chcemy usunąć encję	z użyciem DQL użyjemy metody, która	zwróci odpowiedź true/false.
+
+$products=$query->getResult(); //Metody	getResult()	używamy, gdy nie przekazujemy zmiennych do zapytania
+$products=$query->execute(['priceToLook',$somePrice]); //Metody	execute() używamy, gdy przekazujemy	zmienne	do zapytania.
+
+--
+
+Określanie limitu zwracanych danych:
+Jeżeli chcemy nastawić limit na	liczbę zwracanych danych, to możemy	użyć metody	setMaxResults(n) na	naszym zapytaniu:
+$products =	$query->setMaxResults(20)->getResult();
+
+Jeżeli chcemy, żeby	zapytanie zwróciło nam tylko jeden wynik zamiast tablicy wyników, powinniśmy wykonać dwa kroki:
+-nastawić limit	na 1,
+-zamiast getResult() użyć getOneOrNullResult()
+
+$product = $query->setMaxResults(1)->getOneOrNullResult();
+
+--
+
+Zwracanie wyników:
+Jeżeli chcemy otrzymać wyniki np. pomiędzy 20, a 30	(przydatne przy paginacji) możemy użyć klauzuli	BETWEEN	... AND ...
+
+$query=$em->createQuery(
+'SELECT	u
+FROM myBundle:User u
+BETWEEN	:start	AND	:stop'
+);
+$query->setParameter("start", 20);
+$query->setParameter("stop", 30);
+$users=	$query->getResult();
+
+--
+
+Klasa repozytorium:
+Nasza klasa powinna spełniać następujące warunki:
+-znajdować się w tym samym namespace co	nasza encja,
+-nazywać się tak samo jak encja	z dodatkiem	Repository.
+-repozytoria muszą dziedziczyć z klasy EntityRepository.
+-powinny znajdować się w tym samym katalogu	co encja
+-wyjątkiem są repozytoria wygenerowane automatycznie z użyciem poleceń konsolowych
+
+Przykładowa klasa repozytorium:
+namespace AppBundle\Entity;
+use	Doctrine\ORM\EntityRepository;
+
+class	PostRepository	extends	EntityRepository	{
+				//....
+}
+
+Encje z ich	repozytoriami wiążemy przez	adnotacje:
+/**
+ * @ORM\Entity(repositoryClass="AppBundle\Entity\PostRepository")
+ */
+class	Product{
+ //....
+}
+
+/*
+
+Repozytorium najłatwiej	stworzyć przez automatyczne	wygenerowanie komendą konsolową:
+
+doctrine:generate:entities
+
+Komenda	ta również automatycznie generuje nam repozytorium,	które znajduje się w katalogu Repository
+W klasie naszego repozytorium tworzymy metody, dzięki którym możemy	wczytywać encje, używając bardziej skomplikowanych zapytań.
+Później	będziemy mogli z tych metod korzystać w	naszym kontrolerze tak samo, jak z podstawowych metod repozytorium.
+
+
+Klasa repozytorium:
+
+public function	findOrderedByRaiting($start, $stop){
+ $em = $this->getDoctrine()->getEntityManager();
+ $posts	= $em->createQuery(
+	    'SELECT p FROM MyBundle:Post p
+        ORDER BY p.raiting DESC
+	    BETWEEN :start AND :stop')
+ ->setParameter("start",	$start)
+ ->setParameter("stop",	$stop)
+ ->getResult();
+
+return $posts;
+}
+
+
+Kontroler:
+
+$em = $this->getDoctrine()->getManager();
+$posts = $em->getRepository('MyBundle:Post')->findOrderedByRaiting(40, 50);
+
+Zastosowanie metody	z repozytorium pozwala tworzyć nam swego rodzaju "aliasy" do bardziej skomplikowanych zapytań.
+
+
+
+ */
 
 
 
@@ -463,6 +744,7 @@ class bookController extends Controller
     }
 
 
+
 }
 
 //A to pliki html.twig do tego zadania:
@@ -539,4 +821,357 @@ show_book.html.twig:
 </table>
 {% endblock %}
 
+*/
+
+
+
+
+
+//--------------------------------
+
+/*
+Zad 4 - Relacje:
+Rozwiązania: w katalogu Dzien_3 -> Model_i_Doctrine -> projekt_model_wykladowca
+
+1.Stwórz model i kontroler dla autora. Model powinien mieć następujące informację: Id, Imię i nazwisko, Opis.
+Kontroler powinien umożliwiać: tworzenie nowego autora w systemie, wyświetlenia autora, wyświetlenia wszystkich autorów.
+
+2.Połącz autora i książkę relacją jeden do wielu (dwukierunkowa). Pamiętaj o ponownym wygenerowaniu bazy danych, setterów, getterów do obu klas za pomocą odpowiednich komend konsolowych.
+
+3.Zmodyfikuj tworzenie książki, tak żeby użytkownik mógł wybrać jej autora. W tym celu w kontrolerze wczytaj wszystkich autorów i podaj ich do widoku. W widoku w pętli dodaj ich wszystkich do elementu select.
+
+4.Zmodyfikuj wyświetlania zarówno książki, jak i autora. Książka powinna pokazywać dane swojego autora (imię i nazwisko) i podawać link do jego strony. Autor powinien wypisywać, ile ma książek. Następnie w liście pokazywać ich nazwy i linki do stron książek.
+
+
+ */
+
+
+//Pkt.1:
+/*
+AppBundle:author/Author
+id pomijamy i dodajemy 2 pola: name i description
+Jak nie stworzy pliku authorController.php to ręcznie go stworzyć
+
+Najpierw dodajemy te wszystkie strony do dodawania/usuwania/pokazywania autora:
+*/
+
+namespace AppBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use	Symfony\Component\HttpFoundation\Response;
+use	Symfony\Component\HttpFoundation\Request;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+use Doctrine\ORM\EntityManager;
+use	AppBundle\Entity\author\Author; //to można sprawdzić komendą w konsoli php app/console doctrine:mapping:info
+
+class authorController extends Controller
+{
+
+    /**
+     * @Route("/newAuthor/")
+     * @Template("form_author.html.twig")
+     */
+    public function newAuthorAction() {
+        return [];
+    }
+
+
+    /**
+     * @Route("/createAuthor/")
+     * @Method("POST")
+     */
+    public function createAuthorAction(Request $request) {
+
+        $myauthor = new Author();
+        $myauthor->setName($request->request->get('name','?'));
+        $myauthor->setDescription($request->request->get('description',''));
+
+        $em = $this->getDoctrine()->getManager();
+        $em->persist($myauthor);
+        $em->flush();
+
+
+        return $this->redirectToRoute('app_author_showauthor',
+            array( 'id' => $myauthor->getId() ));
+    }
+
+
+    /**
+     * @Route("/showAuthor/{id}")
+     * @Template("show_author.html.twig")
+     */
+    public function showAuthorAction($id) {
+        $em 		= $this->getDoctrine()->getManager();
+        $authorRepo	= $em->getRepository('AppBundle:author\Author');
+        //$mybook		= $bookRepo->getById($id);
+        $myauthor		= $authorRepo->findOneById($id);
+        return ['author' => $myauthor];
+    }
+
+
+    /**
+     * @Route("/showAllAuthors/")
+     * @Template("show_all_authors.html.twig")
+     */
+    public function showAllAuthorsAction() {
+        $authors = $this->getDoctrine()->getManager()
+            ->getRepository('AppBundle:author\Author')
+            ->findAll();
+
+        return ['authors' => $authors];
+    }
+
+
+    /**
+     * @Route("/deleteAuthor/{id}")
+     * @Template("delete_author.html.twig")
+     */
+    public function deleteAuthorAction($id) {
+        $em = $this->getDoctrine()->getManager();
+        $authorRepo = $em->getRepository('AppBundle:author\Author');
+        //$mybook = $bookRepo->getById($id);
+        $myauthor = $authorRepo->findOneById($id);
+
+        if(!$myauthor){
+            return new Response ("<html><body>Nie znaleziono autora o podanym id :(</body></html>");
+        }
+
+        $em->remove($myauthor);
+        $em->flush();
+        return [];
+    }
+
+
+}
+
+//--
+
+//Pkt.2:
+/*
+I teraz w musimy pozmieniać w plikach (encjach) Author.php i Book.php - tam trzeba ustawić relację:
+project_model->src->AppBundle->Entity->author->Author.php
+
+Jedna książka ma tylko jednego autora, autor może być autorem wielu książek -> relacja jeden do wielu dwukierunkowa
+
+
+W Book.php dodaliśmy (w klasie "class Book {..."):
+
+    /**
+     * @ORM\ManyToOne(targetEntity="AppBundle\Entity\Author\Author", inversedBy="books")
+     * @ORM\JoinColumn(name="author_id",  referencedColumnName="id")
+     */
+     private $author;
+
+/*
+
+W Author.php:
+
+     /**
+     * @ORM\OneToMany(targetEntity="AppBundle\Entity\Book\Book", mappedBy="author")
+     */
+     private $books;
+/*
+
+Na końcu w konsoli trzeba wykonać jeszcze:
+
+php app/console doctrine:generate:entities AppBundle
+php app/console cache:clear
+php app/console doctrine:schema:update --force
+
+ */
+
+
+//Pkt.3:
+/*
+
+//plik create_book.html.twig:
+
+<h2>{{ 'Dodaj nową książkę' | trans }}</h2>
+<form method="POST" action="{{ path('app_book_createbook') }}">
+	<table>
+		<tr><th>{{ 'Tytuł' | trans}}:</th>
+			<td><input type="text" name="title" /></td>
+		</tr>
+		<tr><th>{{ 'Autor' | trans}}:</th>
+			<td>
+				<select name="author">
+				{% for a in authors %}
+					<option value="{{ a.id }}">{{ a.name }}</option>
+				{% endfor %}
+				</select>
+			</td>
+		</tr>
+		<tr><th>{{ 'Ocena' | trans}}:</th>
+			<td><input type="decimal" name="rating" /></td>
+		</tr>
+		<tr><th>{{ 'Opis' | trans}}:</th>
+			<td><textarea name="description"></textarea></td>
+		</tr>
+		<tr><td colspan="2"><input type="submit" /></td></tr>
+	</table>
+</form>
+
+W bookController.php dajemy:
+*/
+	/**
+	 * @Route("/newBook/")
+	 * @Template("Book/create_book.html.twig")
+	 */
+    public function newBookAction() {
+    $authors = $this->getDoctrine()->getManager()
+        ->getRepository('AppBundle:Author\Author')
+        ->findAll();
+
+    return ['authors' => $authors];
+    }
+
+//---------
+
+//Pkt.4:
+
+/*
+
+show_book_html.twig:
+
+<h2>{{ 'Podgląd książki ID' | trans }}: {{ book.id }}</h2>
+<table>
+	<tr><th>{{ 'Tytuł' | trans}}:</th>
+		<td>{{ book.title }}</td>
+	</tr>
+	<tr><th>{{ 'Autor' | trans}}:</th>
+		<td>
+			<a href="{{ path('app_author_showauthor', {'id': book.author.id}) }}">{{ book.author.name }}</a>
+		</td>
+	</tr>
+	<tr><th>{{ 'Ocena' | trans}}:</th>
+		<td>{{ book.rating }}</td>
+	</tr>
+	<tr><th>{{ 'Opis' | trans}}:</th>
+		<td>{{ book.description }}</td>
+	</tr>
+</table>
+
+--
+
+show_author.html.twig:
+
+<h2>{{ 'Podgląd autora ID' | trans }}: {{ author.id }}</h2>
+<table>
+	<tr><th>{{ 'Imię i nazwisko' | trans}}:</th>
+		<td>{{ author.name }}</td>
+	</tr>
+	<tr><th>{{ 'Opis' | trans}}:</th>
+		<td>{{ author.description }}</td>
+	</tr>
+	<tr><th>{{ 'Książki autora' | trans}}:</th>
+		<td>
+			<ol>
+			{% for b in author.books %}
+				<li><a href="{{ path('app_book_showbook', {'id': b.id}) }}">{{ b.title }}</a></li>
+			{% else %}
+				<i>Wg mnie ten autor nie napisał jeszcze żadnej książki..</i>
+			{% endfor %}
+			</ol>
+		</td>
+	</tr>
+</table>
+
+
+
+--------------------------
+
+
+Zad. 5: DQL
+
+Stwórz akcje, które pokażą następujące dane:
+    Wszystkie książki oid większym niż podane przez użytkownika.
+    Wszystkie książki o ratingu większym niż podany przez użytkownika.
+    Pokażą wszystkie książki, które zaczynają się od napisu podanego przez użytkownika.
+Użyj do tego DQL i swojego repozytorium, do pobrania informacji użyj slugów.
+
+
+ODP:
+
+Zrobione, żeby pokazywał książki o id większym od zadanej liczby - moja praca:
+
+W pliku boookController.php dajemy:
+*/
+
+    /**
+     * @Route("/showEverything/")
+     * @Template("showeverything.html.twig")
+     */
+public function newshowEverythingAction()
+{
+
+    $em = $this->getDoctrine()->getManager();
+    $books = $em->getRepository('AppBundle:book\Book')->findBooksByIdGiven(0);
+    return ['books' => $books];
+    // return [];
+}
+
+
+    //ZMIANA:
+    public function newshowEverythingAction(Request $request) {
+
+        $em=$this->getDoctrine()->getManager();
+        $books = $em->getRepository('AppBundle:book\Book')->findBooksByIdGiven(0);
+        return ['books' => $books,
+            'over_id' => $over_id];
+
+    }
+
+//W pliku BookRepository.php:
+
+    namespace AppBundle\Repository\book;
+
+    use Doctrine\ORM\EntityRepository;
+
+    /**
+     * BookRepository
+     *
+     * This class was generated by the Doctrine ORM. Add your own custom
+     * repository methods below.
+     */
+    class BookRepository extends EntityRepository
+    {
+
+        #Wszystkie książki oid większym niż podane przez użytkownika.
+
+
+        public function findBooksByIdGiven ($start_id) {
+
+            //$em=$this->getDoctrine()->getEntityManager(); -> w prezentacji jest źle podane, powinniśmy od razu dać getEntityManager()
+            $em=$this->getEntityManager();
+            $books=$em->createQuery(
+                'SELECT p FROM AppBundle:book\Book p WHERE p.id > :start_id ORDER BY p.id ASC')
+            ->setParameter ("start_id", $start_id)
+            ->getResult();
+
+            return $books;
+        }
+
+
+    }
+
+
+//W pliku showeverything.html.twig
+/*
+    {% block content %}
+        <h2>{{ 'Wszystkie książki ' | trans }} </h2>
+
+        {% for book in books %}
+            <ul>
+                <li>
+                    <div>
+                        {{ book.title }}
+
+
+                    </div>
+                </li>
+            </ul>
+        {% endfor %}
+    {% endblock %}
 */
