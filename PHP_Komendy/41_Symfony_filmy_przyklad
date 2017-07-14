@@ -1,0 +1,815 @@
+1.Stwórz projekt o nazwie "projekt_film".
+2.Wygenreuj kontroler o nazwie Film.
+3.Stwórz bazę danych o nazwie "film_exercises", a w niej tabelę "films" zawierającą następujące pola:
+-id
+-title
+-production_year
+-rating
+4.Stwórz następujące akcje:
+/newFilm - formularz dodawania filmu
+/createFilm - zapis do bazy dodanego filmu, później przekierowanie do /showFilm dla nowododanego filmu
+/showFilm/{id} - pokazuje film
+/showAllFilms - pokazuje wszystkie filmy
+/deleteFilm/{id} - kasuje film
+5.Model i kontroler dla "Actors" i dodanie do bazy danych
+-id
+-name
+-age
+6.Stwórz akcje (formularze symfony)
+/newActor - formularz dodawania aktora
+/createActor - zapis aktora do bazy, przeniesienie do /showActor
+/showActor/{id} - pokazuje aktora
+/showAllActors - pokazuje wszystkich aktorów
+/deleteActor/{id} - kasuje aktora	
+7.Napisz wyszukiwarkę aktorów (DQL):
+-wpisując frazę ma znaleźć aktorów w bazie
+-podając wiek ma znaleźć aktorów w tym wieku lub starszych. 
+
+
+----------
+
+1.Stwórz projekt o nazwie "projekt_film":
+-odpalam konsolę, wchodzę do katalogu Workspace i wpisuje w konsoli:
+symfony new projekt_film 2.8
+
+wchodzę do katalogu projekt_film i uruchamiam serwer:
+php app/console server:start 127.0.0.1:8080 
+
+------------
+
+2.Wygenreuj kontroler o nazwie Film:
+w kosoli wpisujemy:
+php app/console generate:controller
+i podajemy:
+Controller name: AppBundle:Film
+
+---------------
+
+3.Stwórz bazę danych o nazwie "film_exercises"...:
+Idziemy do pliku: projekt_film/app/config/parameters.yml i zmieniamy na takie dane:
+
+parameters:
+    database_host: 127.0.0.1
+    database_port: null
+    database_name: film_exercises
+    database_user: root
+    database_password: coderslab
+    mailer_transport: smtp
+    mailer_host: 127.0.0.1
+    mailer_user: null
+    mailer_password: null
+    secret: 9b017b3410f4a88e40665462872af2db77d08210
+
+A następnie w konsoli wpisujemy:
+php app/console doctrine:database:create
+
+oraz
+
+php app/console doctrine:generate:entity
+i wpisujemy:
+
+i wtedy po kolei wpisujemy:
+The entity shortcut name: AppBundle:Film/Film
+dalej: annotation
+i podajemy poszczególne nazwy kolum w tabeli:
+-id (tego nie musimy dodawać, bo to domyślnie doda)
+-title (jako string)
+-production_year (jako integer)
+-rating (jako float)
+
+a potem w konsoli:
+php app/console doctrine:schema:update --force
+
+
+----------------------
+
+4.Stwórz następujące akcje:
+
+Plik FilmController.php:
+
+namespace AppBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use Symfony\Component\HttpFoundation\Response;
+use Symfony\Component\HttpFoundation\Request;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+use Doctrine\ORM\EntityManager;
+use AppBundle\Entity\Film\Film;
+
+class FilmController extends Controller
+{
+
+    /**
+     * @Route("/start/")
+     * @Template("start.html.twig")
+     */
+    public function startAction() {
+        return [];
+    }
+
+
+    /**
+     * @Route("/newFilm/")
+     * @Template("newfilm.html.twig")
+     */
+    public function startnewFilm() {
+
+        return [];
+
+
+    }
+
+    /**
+     * @Route("/createFilm/")
+     * @Method("POST")
+     */
+    public function startcreateFilm(Request $request) {
+        $title=$request->request->get('title');
+        $description = $request->request->get('production_year');
+        $rating = $request->request->get('rating');
+
+        $postToAdd = new Film();
+        $postToAdd->setTitle($title);
+        $postToAdd->setProductionYear($description);
+        $postToAdd->setRating($rating);
+
+
+        $em=$this->getDoctrine()->getManager();
+        $em->persist($postToAdd);
+        $em->flush();
+
+        //return new Response("Dodano nowy posy o id:" . $postToAdd->getId());
+        return $this->redirectToRoute('app_film_showfilm', array('id'=>$postToAdd->getID()));
+    }
+
+
+    /**
+     * @Route("/showFilm/{id}/")
+     * @Template("show_film.html.twig")
+     */
+    public function showFilmAction($id) {
+        $em=$this->getDoctrine()->getManager();
+        $filmRepo=$em->getRepository('AppBundle:Film\Film');
+        $myfilm=$filmRepo->findOneById($id);
+        return ['film'=>$myfilm];
+    }
+
+
+    /**
+     * @Route("/showAllFilms/")
+     * @Template("showallfilm.html.twig")
+     */
+    public function showAllFilmsAction() {
+        $allfilms = $this->getDoctrine()->getManager()
+            ->getRepository('AppBundle:Film\Film')
+            ->findAll();
+
+        return ['films' => $allfilms];
+    }
+
+
+    /**
+     * @Route("/deleteFilm/{id}/")
+     */
+
+    public function deleteFilmAction($id)
+    {
+        $em=$this->getDoctrine()->getManager();
+        $filmToDelete=$em->getRepository('AppBundle:Film\Film')->find($id);
+
+        if (!$filmToDelete) {$message = "Nie ma takiego filmu o zadanym id<br>";}
+        else {
+            $message = "Usunięto film<br>";
+            $em->remove($filmToDelete);
+            $em->flush();
+
+        }
+
+
+        return $this->redirectToRoute('app_film_showallfilms');
+
+    }
+
+
+}
+
+
+-----
+
+newfilm.html.twig:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>New Film</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+<a href="/start/">Powrót</a><br><br>
+
+<div>
+    <h2>Dodaj nowy film</h2>
+    <form method="POST" action="/createFilm/">
+       <table>
+            <tr>
+                <th>Tytuł filmu: </th>
+                <td><input type="text" name="title" /></td>
+            </tr>
+            <tr>
+                <th>Rok produkcji: </th>
+                <td><input type="text" name="production_year" value="2017" /></td>
+            </tr>
+            <tr>
+                <th>Ocena: </th>
+                <td><input type="text" name="rating" value="5.0" /></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" /></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+</body>
+</html>
+
+
+---
+
+show_film.html.twig:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ film.title }} : {{ film.id }}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+<h2>Podgląd filmu ID: {{ film.id }}</h2>
+<table>
+    <tr><th>Tytuł:</th>
+        <td>{{ film.title }}</td>
+    </tr>
+    <tr><th>Rok produkcji:</th>
+        <td>
+            {{ film.productionyear }}
+        </td>
+    </tr>
+    <tr><th>Ocena:</th>
+        <td>{{ film.rating }}</td>
+    </tr>
+    <tr><th></th>
+        <td><a href="/showAllFilms/">Powrót</a></td>
+    </tr>
+</table>
+</body>
+</html>
+
+---
+
+showallfilm.html.twig:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Wszystkie filmy w bazie</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+<h2>Lista filmów w bazie:</h2>
+<table>
+    {% for film in films %}
+    <tr><td><a href="/showFilm/{{ film.id }}/">{{ film.title }}</a> | <a href="/deleteFilm/{{ film.id }}/">Usuń</a></td>
+    </tr>
+    {% endfor %}
+</table>
+
+<br><br><a href="/start/">Powrót</a>
+</body>
+</html>
+
+-----------------
+
+
+5.Model i kontroler dla "Actors" i dodanie do bazy danych
+
+php app/console doctrine:generate:entity
+i wpisujemy:
+
+i wtedy po kolei wpisujemy:
+The entity shortcut name: AppBundle:Actors/Actors
+dalej: annotation
+i podajemy poszczególne nazwy kolum w tabeli:
+-id (tego nie musimy dodawać, bo to domyślnie doda)
+-name (jako string)
+-age (jako integer)
+
+a potem w konsoli:
+php app/console doctrine:schema:update --force
+
+
+-------------
+
+
+6.Stwórz akcje (formularze symfony):
+
+Kontroler ActorsController.php:
+
+<?php
+
+namespace AppBundle\Controller;
+
+use Symfony\Bundle\FrameworkBundle\Controller\Controller;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
+use	Symfony\Component\HttpFoundation\Response;
+use	Symfony\Component\HttpFoundation\Request;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
+use Doctrine\ORM\EntityManager;
+use	AppBundle\Entity\Actors\Actors;
+
+class ActorsController extends Controller
+{
+
+    /**
+     * @Route("/newActor/")
+     * @Template("new_actor.html.twig")
+     */
+    public function newActorAction() {
+        $actor = new Actors();
+
+        $form = $this->createFormBuilder($actor)
+            ->setAction($this->generateUrl('app_actors_createactor'))
+            ->add('name', 'text')
+            ->add('age', 'text')
+            ->add('save', 'submit', ['label' => 'Dodaj nowego aktora'])
+            ->getForm();
+
+
+        return ['form' => $form->createView(), 'is_updated' => false];
+
+
+    }
+
+
+
+    /**
+     * @Route("/createActor/")
+     * @Method("POST")
+     */
+    public function createActorAction(Request $request) {
+
+        $actor = new Actors();
+
+        $form = $this->createFormBuilder($actor)
+            ->add('name', 'text')
+            ->add('age', 'text')
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted()) {
+            $actor=$form->getData();
+
+            $em=$this->getDoctrine()->getManager();
+            $em->persist($actor);
+            $em->flush();
+
+            return $this->redirectToRoute('app_actors_showallactors');
+
+        }
+        return $this->redirectToRoute('app_actors_showallactors');
+    }
+
+    /**
+     * @Route("/showAllActors/")
+     * @Template("show_all_actors.html.twig")
+     */
+    public function showAllActorsAction() {
+        $allactors = $this->getDoctrine()->getManager()
+            ->getRepository('AppBundle:Actors\Actors')
+            ->findAll();
+
+        return ['actors' => $allactors];
+    }
+
+
+    /**
+     * @Route("/deleteActor/{id}/")
+     */
+
+    public function deleteActorAction($id)
+    {
+        $em=$this->getDoctrine()->getManager();
+        $actorToDelete=$em->getRepository('AppBundle:Actors\Actors')->find($id);
+
+        if (!$actorToDelete) {$message = "Nie ma takiego aktora o zadanym id<br>";}
+        else {
+            $message = "Usunięto aktora<br>";
+            $em->remove($actorToDelete);
+            $em->flush();
+
+        }
+
+
+        return $this->redirectToRoute('app_actors_showallactors');
+
+    }
+
+
+    /**
+     * @Route("/showActor/{id}/")
+     * @Template("show_actor.html.twig")
+     */
+    public function showActorAction($id) {
+        $em=$this->getDoctrine()->getManager();
+        $actorRepo=$em->getRepository('AppBundle:Actors\Actors');
+        $myactor=$actorRepo->findOneById($id);
+        return ['actor'=>$myactor];
+    }
+
+
+    /**
+     * @Route("/editActor/{id}/")
+     * @Template("edit_actor.html.twig")
+     * @Method({"POST","GET"})
+     */
+    public function editActorAction(Request $request, $id) {
+        $is_updated = false;
+
+        $em = $this->getDoctrine()->getManager();
+        $actorRepo=$em->getRepository('AppBundle:Actors\Actors');
+        $actor=$actorRepo->findOneById($id);
+
+        if (! $actor) {
+            return $this->redirectToRoute('app_actors_newactor');
+        }
+
+
+        $form = $this->createFormBuilder($actor)
+            ->setAction($this->generateUrl('app_actors_editactor', ['id'=>$id]))
+            ->add('name', 'text')
+            ->add('age', 'text')
+            ->add('save', 'submit', ['label' => 'Zapisz aktualizację danych aktora'])
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted()) {
+            $actor=$form->getData();
+            $em=$this->getDoctrine()->getManager();
+            $em->persist($actor);
+            $em->flush();
+
+            return $this->redirectToRoute('app_actors_showallactors');
+        }
+
+        return ['form'=>$form->createView(), 'is_updated' => $is_updated];
+        //return $this->redirectToRoute('app_actors_showallactors');
+    }
+
+
+}
+
+
+---
+
+edit_actor.html.twig:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Edit Actor</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+<a href="/start/">Powrót</a><br><br>
+
+
+
+<div>
+    <h2>Edytyj dane aktora</h2>
+    {{ form_start(form) }}
+    <table>
+        <tr>
+            <th>Imię i nazwisko aktora: </th>
+            <td>{{ form_widget(form.name) }}</td>
+        </tr>    /**
+     * @Route("/findActor/")
+     * @Template("find_actor.html.twig")
+     */
+    public function findActorAction(Request $request) {
+        $actor = new Actors();
+
+        $form = $this->createFormBuilder($actor)
+            //$builder->add('name', 'text', array('label' => 'form.name','required' => false));
+            ->add('name', 'text',['required' => false])
+            ->add('age', 'text',['required' => false])
+            ->add('save', 'submit', ['label' => 'Znajdź aktora'])
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted()) {
+            $actor=$form->getData();
+            $name=$actor->getName();
+            $age=$actor->getAge();
+
+            $allactors = $this->getDoctrine()->getManager()
+                ->getRepository('AppBundle:Actors\Actors')
+                ->findBy(['name'=>$name, 'age'=>$age]);
+            var_dump($allactors);
+            echo count($allactors);
+
+        }
+        return ['form' => $form->createView(), 'is_updated' => false, 'actors' => $allactors, 'siezofarray' => count($allactors)];
+    }
+        <tr>
+            <th>Wiek: </th>
+            <td>{{ form_widget(form.age) }}</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">{{ form_widget(form.save) }}</td>
+        </tr>
+    </table>
+    {{ form_end(form) }}
+</div>
+
+</body>
+</html>
+
+
+----
+
+new_actor_html.twig:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>New Actor</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+<a href="/start/">Powrót</a><br><br>
+
+
+
+<div>
+    <h2>Dodaj nowego aktora</h2>
+    {{ form_start(form) }}
+        <table>
+            <tr>
+                <th>Imię i nazwisko aktora: </th>
+                <td>{{ form_widget(form.name) }}</td>
+            </tr>
+            <tr>
+                <th>Wiek: </th>
+                <td>{{ form_widget(form.age) }}</td>
+            </tr>
+
+            <tr>
+                <td colspan="2">{{ form_widget(form.save) }}</td>
+            </tr>
+        </table>
+    {{ form_end(form) }}
+</div>
+
+</body>
+</html>
+
+
+---
+
+show_actor.html.twig:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{{ actor.name }} : {{ actor.id }}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+<h2>Podgląd aktora ID: {{ actor.id }}</h2>
+<table>
+    <tr><th>Imię i nazwisko:</th>
+        <td>{{ actor.name }}</td>
+    </tr>
+    <tr><th>Wiek:</th>
+        <td>
+            {{ actor.age }}
+        </td>
+    </tr>
+    <tr><th></th>
+        <td>
+            <a href="/editActor/{{ actor.id }}/">Edytuj tego aktora</a><br>
+            <a href="/showAllActors/">Powrót</a><br>
+        </td>
+    </tr>
+</table>
+</body>
+</html>
+
+
+----
+
+show_all_actors.html.twig:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Wszyscy aktorzy w bazie</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+<h2>Lista aktorów w bazie:</h2>
+<table>
+    {% for actor in actors %}
+        <tr><td><a href="/showActor/{{ actor.id }}/">{{ actor.name }}</a> | <a href="/deleteActor/{{ actor.id }}/">Usuń</a>  | <a href="/editActor/{{ actor.id }}/">Edytuj</a></td>
+        </tr>
+    {% endfor %}
+</table>
+
+<br><br><a href="/start/">Powrót</a>
+</body>
+</html>
+
+
+
+
+
+
+------------------------------------------
+------------------------------------------
+
+7.Napisz wyszukiwarkę aktorów (bez DQL):
+
+//BEZ DQL:
+
+ActorsController.php:
+
+    /**
+     * @Route("/findActor/")
+     * @Template("find_actor.html.twig")
+     */
+    public function findActorAction(Request $request) {
+        $actor = new Actors();
+
+        $form = $this->createFormBuilder($actor)
+            //$builder->add('name', 'text', array('label' => 'form.name','required' => false));
+            ->add('name', 'text',['required' => false])
+            ->add('age', 'text',['required' => false])
+            ->add('save', 'submit', ['label' => 'Znajdź aktora'])
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted()) {
+            $actor=$form->getData();
+            $name=$actor->getName();
+            $age=$actor->getAge();
+
+            $allactors = $this->getDoctrine()->getManager()
+                ->getRepository('AppBundle:Actors\Actors')
+                ->findBy(['name'=>$name, 'age'=>$age]);
+            var_dump($allactors);
+            echo count($allactors);
+
+        }
+        return ['form' => $form->createView(), 'is_updated' => false, 'actors' => $allactors, 'siezofarray' => count($allactors)];
+    }
+
+--
+
+find_actor.html.twig:
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Welcome!{% endblock %}</title>
+    {% block stylesheets %}{% endblock %}
+    <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+</head>
+<body>
+{% if siezofarray > 0 %}
+    <h2>Znaleziono aktorów:</h2>
+    {% for actor in actors %}
+        <li>
+            {{ actor.name }} ({{ actor.age }})
+        </li>
+    {% endfor %}
+
+{% endif %}
+
+<h2>Wyszukiwarka aktorów:</h2>
+{{ form_start(form) }}
+<table>
+    <tr>
+        <th>Podaj nazwisko aktora: </th>
+        <td>{{ form_widget(form.name) }}</td>
+    </tr>
+    <tr>
+        <th>Podaj wiek: </th>
+        <td>{{ form_widget(form.age) }}</td>
+    </tr>
+
+    <tr>
+        <td colspan="2">{{ form_widget(form.save) }}</td>
+    </tr>
+</table>
+{{ form_end(form) }}
+</body>
+</html>
+
+
+
+
+-------------------
+
+7B.Napisz wyszukiwarkę aktorów (DQL):
+
+ActorsController.php:
+
+    /**
+     * @Route("/findActor/")
+     * @Template("find_actor.html.twig")
+     */
+    public function findActorAction(Request $request) {
+        $actor = new Actors();
+
+        $form = $this->createFormBuilder($actor)
+            //$builder->add('name', 'text', array('label' => 'form.name','required' => false));
+            ->add('name', 'text',['required' => false])
+            ->add('age', 'text',['required' => false])
+            ->add('save', 'submit', ['label' => 'Znajdź aktora'])
+            ->getForm();
+
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted()) {
+            $actor=$form->getData();
+            $name=$actor->getName();
+            $age=$actor->getAge();
+
+            $em = $this->getDoctrine()->getManager();
+            $allactors = $em->getRepository('AppBundle:Actors\Actors')->findByMinimuAge($age);
+            var_dump($allactors);
+            return ['form' => $form->createView(), 'is_updated' => false, 'actors' => $allactors, 'siezofarray' => count($allactors)];
+
+        }
+        return ['form' => $form->createView(), 'is_updated' => false, 'actors' => $allactors, 'siezofarray' => count($allactors)];
+    }
+
+
+ActorsRepository.php:
+
+namespace AppBundle\Repository\Actors;
+
+use Doctrine\ORM\EntityRepository;
+
+/**
+ * ActorsRepository
+ *
+ * This class was generated by the Doctrine ORM. Add your own custom
+ * repository methods below.
+ */
+class ActorsRepository extends EntityRepository
+{
+
+    public function	findByMinimuAge($age){
+        $em = $this->getEntityManager();
+        $actors	= $em->createQuery(
+            'SELECT p FROM AppBundle:Actors\Actors p WHERE p.age >= :age ORDER BY p.name DESC')
+            ->setParameter("age", $age)
+            ->getResult();
+
+        return $actors;
+    }
+
+}
+
+find_actor.html.twig:
+Pozostaje bez zmian
+
+
+----------------------------
+
+
+

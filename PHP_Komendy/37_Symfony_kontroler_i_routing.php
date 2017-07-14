@@ -1,5 +1,8 @@
 <?php
 /*
+php	app/console	debug:router
+php app/console doctrine:mapping:info
+
 Tworzenie nowego kontrolera o nazwie first - musimy być w projekcie (katalog) i w konsoli wpisać:
 php	app/console	generate:controller
 i podajemy w poszczególnych krokach:

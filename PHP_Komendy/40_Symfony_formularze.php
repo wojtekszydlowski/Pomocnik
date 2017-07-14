@@ -3,7 +3,11 @@
 
 TEORIA:
 
-Komponent Form:
+Pełen spis typów pól: http://symfony.com/doc/2.8/reference/forms/types.html
+Więcej o formularzach: http://symfony.com/doc/2.8/book/forms.html
+
+
+KOMPONENT FORM:
 
 Jedną z	głównych części	frameworku Symfony jest	komponent Form służący do budowy i obsługi formularzy.
 Tak	jak	inne komponenty	jest niezależny	i może być wykorzystywany poza Symfony.
@@ -26,7 +30,7 @@ Budowa formularza składa się z trzech części:
 
 --
 
-Budowa formularzy w	kontrolerze:
+BUDOWA FORMULARZY W KONTROLERZE:
 
 Aby stworzyć obiekt	klasy FormBuilder dla danej	encji musimy użyć metody createFormBuilder(), którą dziedziczymy z podstawowej klasy kontrolera.
 Metodzie musimy	przekazać obiekt naszej	encji (nowy	lub	wczytany z bazy danych).
@@ -59,14 +63,14 @@ Na koniec musimy wywołać getForm() na obiekcie FormBuilder. Sam FormBuilder	ni
 
 -
 
-Przekazanie formularza do widoku:
+PRZEKAZYWANIE FORMULARZA DO WIDOKU:
 Następnie musimy przekazać formularz do	widoku. Do widoku nie przekazujemy obiektu Form, tylko jego	widok, który otrzymujemy dzięki metodzie createView().
 
 return $this->render('default/new.html.twig', ['form' => $form->createView()]);
 
 -
 
-Wyświetlanie formularza	w widoku:
+WYŚWIETLANIE FORMULARZA W WIDOKU:
 
 {{ form_start(form) }}
 {{ form_widget(form) }}
@@ -74,7 +78,7 @@ Wyświetlanie formularza	w widoku:
 
 -
 
-Przechwytywanie	danych z formularza:
+PRZECHWYTYWANIE DANYCH Z FORMULARZA:
 -Następnie musimy napisać kod, który przechwyci	dane z formularza wypełnionego przez użytkownika.
 -Musimy stworzyć taki sam formularz, jakiego przedtem użyliśmy (dlatego dobrze jest	przenieść tworzenie formularza do osobnej metody).
 
@@ -95,6 +99,91 @@ if	($form->isSubmitted())	{
     return $this->redirectToRoute('task_success');
 }
 
+---
+
+ŁĄCZENIE FORMULARZY Z ENCJĄ:
+Całą potęgą	formularzy w Symfony jest automatyczne połączenie formularza z naszą encją. Dzieje się to dzięki temu, że formularz szuka z naszej encji:
+-publicznego atrybutu z	taką samą nazwą	jak	jego pole,
+-publicznej	metody set odpowiadającej nazwie pola.
+
+Metoda add:
+Metoda add() tworzy	nam	pole w formularzu. Musimy jej przekazać	następujące	dane:
+-nazwę pola	(taka sama jak atrybut,	do którego odnosi się to pole),
+-typ pola,
+-tablicę z dodatkowymi opcjami.
+
+Typy pól:
+W Symfony możemy skorzystać	m.in. z następujących typów	pól:
+-pola tekstowe,
+-pola wyboru,
+-przycisk,
+-pola ukryte.
+
+Pełen spis typów pól: http://symfony.com/doc/2.8/reference/forms/types.html
+
+
+Opcje przekazywania	do add():
+Do metody add() możemy przekazywać różne opcje (w formie tablicy podawanej jako trzeci parametr). Opcje	te różnią się w	zależności od typu pola. Opcje przyjmowane przez	dany typ pola można	znaleźć	w dokumentacji.
+Jednymi	z najczęściej używanych opcji są:
+-required –	określa, czy pole formularza jest wymagane (przyjmuje wartości true	albo false),
+-label – dodaje	opis do	pola formularza.
+
+->add('dueDate', 'date',	[
+			'required' => true,
+			'label' => 'Due Date',
+]);
+
+
+TYP POLA - ENTITY:
+Jednym z najważniejszych typów pól jest	pole wyboru	encji. Pozwala nam ono na wybranie jednej z encji danej	klasy, która jest zapisana	w bazie danych.
+Na stronie wyświetla się jako pole wyboru.
+
+Jeżeli wybraliśmy typ pola entity, musimy przekazać	do formularza co najmniej dwie opcje:
+-class – nazwa klasy encji budowaną na zasadzie	BundleName:EntityName
+-choice_label – nazwa atrybutu,	który będzie używany do wyświetlenia w formularzu.
+
+
+->add('users', 'entity', [
+	  'class' => 'myBundle:Tag',
+	  'choice_label' =>	'tagName',
+]);
+
+Jeżeli chcemy, żeby nasz formularz wczytywał tylko wybrane encje danej klasy, możemy przekazać mu odpowiednie zapytanie	DQL. Robimy	to przez użycie opcji query_builder
+
+Więcej o tej opcji można przeczytać	tutaj:
+http://symfony.com/doc/2.8/reference/forms/types/entity.html#using-a-custom-query-for-the-entities
+
+--
+
+ZAAWANSOWANE RENDEROWANIE:
+
+Możemy też wpłynąć na to, jak nasz formularz jest renderowany. Możemy wyświetlać po	kolei każde	jego pole. Służą do tego odpowiednie metody	Twig:
+-form_start(),
+-form_label(),
+-form_widget(),
+-form_end().
+
+{{ form_start(form) }}
+	<div>
+	  {{ form_label(form.task) }}
+	  {{ form_widget(form.task) }}
+	</div>
+	<div>
+      {{ form_label(form.dueDate) }}
+	  {{ form_widget(form.dueDate) }}
+	</div>
+	<div>
+      {{ form_widget(form.save) }}
+	</div>
+{{ form_end(form)	}}
+
+
+Więcej o formularzach: http://symfony.com/doc/2.8/book/forms.html
+M.in. o:
+-nadpisywaniu szablonów	formularzy,
+-tworzeniu specjalnych klas	formularzy,
+-tworzeniu formularzy pod wiele	encji,
+-używaniu formularzy bez klasy encji.
 
 
 
