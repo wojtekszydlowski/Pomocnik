@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>AJAX</title>
+		<script type="text/javascript" src="ajax.js"></script>
+	</head>
+	<!-- onload w body załaduje funkcję javascripta ajaxInit -->
+	<body onload="ajaxInit();">
+		
+		<form>
+			Wybierz pliki:
+			<!-- przy zmianie selecta zostanie wywołana funkcja pewna_funkcja() -->
+			<select onchange="pewna_funkcja();">
+				<option>1</option>
+				<option>2</option>
+				<option>3</option>
+			</select>
+		</form>	
+		
+		<div id="tekst">
+			<!-- Tu wyświetli się nam wczytana zawartość z serwera.-->
+		</div>	
+	</body>
+</html>

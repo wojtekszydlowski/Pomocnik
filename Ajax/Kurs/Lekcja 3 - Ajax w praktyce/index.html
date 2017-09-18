@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<title>AJAX</title>
+		<script type="text/javascript" src="ajax.js"></script>
+	</head>
+	<body>
+		
+		<form>
+			Wybierz pliki:
+			<!-- Funkcja fileToDiv przyjmuje 2 argumenty. Pierwszy to id diva (tam gdzie ma to być wyświetlane), drugi to pobrana wartość z select (ta wartość będzie wysłana do diva-->
+			<select onchange="fileToDiv('tekst', this.value);">
+				<option value="plik1.txt">1</option>
+				<option value="plik2.php">2</option>
+				<option value="plik3.html">3</option>
+				<option value="plik4.xml">4</option>
+			</select>
+		</form>	
+		
+		<div id="tekst">
+			ss<!-- Tu wyświetli się nam wczytana zawartość z serwera.-->
+		</div>	
+	</body>
+</html>
