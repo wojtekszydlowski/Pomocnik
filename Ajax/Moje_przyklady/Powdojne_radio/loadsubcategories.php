@@ -36,12 +36,10 @@ if ($exists2 > 0) {
         $subcategoryid2 = $records2[$i];
         $subcategoryname2 = $records2[$i + 1];
 
-        $checked = "";
-        //if ($_POST['subcategory'] == $subcategoryid2) {$checked = "checked";} else {$checked = "";}
+        if (isset ($_POST['subcategory']) && $_POST['subcategory'] == $subcategoryid2) {$checked = "checked";} else {$checked = "";}
 
         echo "<input type=\"radio\" name=\"subcategory\" value=\"$subcategoryid2\" $checked>$subcategoryname2<br>";
-        //echo "<option value=\"$categoryid\">$categoryname</option>";
-//echo "<option>Option 2</option>";
+
     }
     //echo "<input type=\"hidden\" name=\"subcategoryneeded\" value=\"1\">";
 }
