@@ -3,7 +3,12 @@
 #Konfiguracja:
 
 W przypadku access denied  konsoli linux wpisać:
-sudo chmode -R 777 [folder_workspace] , gdzie R oznacza rekirsive - folder i podkatalogi
+sudo chmod -R 777 [folder_workspace] , gdzie R oznacza rekirsive - folder i podkatalogi
+
+Aby sprawdzić ściężkę do katalogu daj:
+$_SERVER['DOCUMENT_ROOT'] + nazwa naszego katalogu
+sudo chmod -R 777 ~/Workspace/fakturaweb/user/uploads/
+sudo chmod -R 777 /var/www/html/suplementytrisana/
 
 --------------------
 
@@ -277,3 +282,172 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 //    }
 
 }
+
+/**
+Skrypt wgrywający pliki na serwer
+ */
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    //echo "władowano plik";
+    $error = 2;
+
+    //FILE UPLOAD VERIFICATION
+    if (is_uploaded_file($_FILES['uploadedfile']['tmp_name'])) {
+
+        switch ($_FILES['uploadedfile']['tmp_name']) {
+            case 0:
+                $file_error_color = "#888;";
+                $file_error = 0;
+                break;
+            case 1:
+                $error = 1;
+                $file_error_color = "#e73d4a;";
+                $file_error = 1;
+                $file_error_message = "Błąd! Zbyt duży plik. Maksymalna wielkość pliku 1 MB.";
+                break;
+            case 2:
+                $error = 1;
+                $file_error_color = "#e73d4a;";
+                $file_error = 1;
+                $file_error_message = "Błąd! Zbyt duży plik. Maksymalna wielkość pliku 1 MB.";
+                break;
+            case 3:
+                $error = 1;
+                $file_error_color = "#e73d4a;";
+                $file_error = 1;
+                $file_error_message = "Błąd! Plik został wgrany tylko częściowo. Dodaj go jeszcze raz.";
+                break;
+            case 4:
+                $error = 1;
+                $file_error_color = "#e73d4a;";
+                $file_error = 1;
+                $file_error_message = "Błąd! Nie wgrano pliku.";
+                break;
+            case 7:
+                $error = 1;
+                $file_error_color = "#e73d4a;";
+                $file_error = 1;
+                $file_error_message = "Błąd! Nie można było zapisać pliku na dysku. Spróbuj dodać go jeszcze raz.";
+            default:
+                $error = 1;
+                $file_error_color = "#e73d4a;";
+                $file_error = 1;
+                $file_error_message = "Błąd zapisu pliku.";
+
+        }
+
+
+        $max_file_size = 1024 * 1024 * 1;
+        if (isset($_POST['documentsort']) && $_POST['documentsort'] == "UMOWA") {
+            $max_file_size = 1024 * 1024 * 10;
+        }
+        if ($_FILES['uploadedfile']['size'] > $max_file_size) {
+            $error = 1;
+            $file_error_color = "#e73d4a;";
+            $file_error = 1;
+            $file_error_message = "Błąd! Zbyt duży plik. Maksymalna wielkość pliku 10 MB dla umów i 1 MB dla pozostałych dokumentów.";
+        }
+
+        $filetype = $_FILES['uploadedfile']['type'];
+        if ((strpos($filetype, "image/") === false) && (strpos($filetype, "pdf") === false)) {
+            //if ((strpos($filetype,"image/") === false)) {
+            $error = 1;
+            $file_error_color = "#e73d4a;";
+            $file_error = 1;
+            $file_error_message = "Błąd! Niewłaściwy typ pliku. Możesz dodawać tylko pliki graficzne (.jpg, .png, .gif) i pliki pdf.";
+        }
+
+
+    } else {
+        $error = 1;
+        $file_error_color = "#e73d4a;";
+        $file_error = 1;
+        $file_error_message = "Błąd! Nie wybrano pliku z dokumentem.";
+    }
+    //END FILE UPLOAD VERIFICATION
+
+    //UPLOAD IF EVERYTHING IS OK
+    //FILE UPLOAD
+    $fileExtension = pathinfo($_FILES["uploadedfile"]["name"], PATHINFO_EXTENSION);
+    $fileName = $_FILES['uploadedfile']['name'];
+    $dotposition = strrpos ($fileName, ".");
+    $fileName = substr($fileName,0,$dotposition);
+    $fileNameBase = $fileName . "_" . $currentDateEU;
+    $fileName = $fileNameBase . "." . $fileExtension;
+    $folderid = $_SESSION['login_id_fakturaweb'];
+    $targetFolderWithPath = __DIR__ . "/uploads/" . $folderid;
+    if  (is_dir ($targetFolderWithPath) == false) {
+        //Create folder
+        $pathToDir2 = "/uploads/". $_SESSION['login_id_fakturaweb'];
+        mkdir ($targetFolderWithPath);
+    }
+
+    $newFileName = $fileNameBase . "." . $fileExtension;
+    $targetFileWithPath = $targetFolderWithPath . "/" . $newFileName;
+    $counter = 1;
+
+    if (is_file ($targetFileWithPath) == false) {
+        echo "nie ma pliku";
+        move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $targetFileWithPath);
+    } else {
+        echo "jest plik";
+        $newFileName = $fileNameBase . "_" . $counter . "." . $fileExtension;
+        $targetFileWithPath = $targetFolderWithPath . "/" . $newFileName;
+        while (is_file($targetFileWithPath) == true) {
+            $counter++;
+            $newFileName = $fileNameBase . "_" . $counter . "." . $fileExtension;
+            $targetFileWithPath = $targetFolderWithPath . "/" . $newFileName;
+        }
+        move_uploaded_file($_FILES['uploadedfile']['tmp_name'], $targetFileWithPath);
+    }
+}
+
+/**
+Zabezpieczenie katalogu z plikami - tak aby nie można było ich pobrać ani podglądnąć co tam jest:
+
+Plik .htaccess dajemy w katalogu, w którym są pliki (będzie działał również we wszystkich podkatalogach tego katalogu), a w nim wstawiamy:
+Order allow,deny
+Deny from all
+
+*/
+
+//Żeby pobrać plik należy:
+
+session_start();
+if (isset($_SESSION['authorizationfakturaweb']) && ($_SESSION['authorizationfakturaweb'] == "customer")) {
+    $folderid = $_SESSION['login_id_fakturaweb'];
+    $targetFolderWithPath = __DIR__ . "/uploads/" . $folderid;
+    $targetFileWithPath = $targetFolderWithPath . "/" . "logo_2018-06-29.png";
+    $targetFileWithPath = $targetFolderWithPath . "/" . "Faktura_HOME-2018-0003536_2018-06-29.pdf";
+
+    //pobranie pliku
+    $file = $targetFileWithPath;
+    header("Content-Type: application/force-download");
+    header("Content-Type: application/octet-stream");
+    header("Content-Type: application/download");
+    header("Content-Disposition: attachment; filename=" . basename($file) . ";");
+    header("Accept-Ranges: bytes");
+    header("Content-Transfer-Encoding: binary");
+    header("Content-Length: " . filesize($file));
+    readfile($file);
+    exit();
+}
+
+//Żeby wyświetlić np. plik pdf na ekranie monitora:
+
+session_start();
+if (isset($_SESSION['authorizationfakturaweb']) && ($_SESSION['authorizationfakturaweb'] == "customer")) {
+    $folderid = $_SESSION['login_id_fakturaweb'];
+    $targetFolderWithPath = __DIR__ . "/uploads/" . $folderid;
+    $targetFileWithPath = $targetFolderWithPath . "/" . "logo_2018-06-29.png";
+    $targetFileWithPath = $targetFolderWithPath . "/" . "Faktura_HOME-2018-0003536_2018-06-29.pdf";
+
+    $file = $targetFileWithPath;
+    $filename = 'Faktura_HOME-2018-0003536_2018-06-29.pdf';
+    header('Content-type: application/pdf');
+    header('Content-Disposition: inline; filename="' . $filename . '"');
+    header('Content-Transfer-Encoding: binary');
+    header('Accept-Ranges: bytes');
+    @readfile($file);
+}
+

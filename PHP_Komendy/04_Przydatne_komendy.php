@@ -11,4 +11,15 @@ number_format ( float $liczba [, int $miejsc_dziesiętnych [, string $przecinek_
 np. $notacja_polska = number_format($liczba, 2, ',', ' ');
 
 
- */
+SKRÓCONY WARUNEK:
+($warunek) ? / wykonaj jeśli $warunek jest spełniony / :  / wykonaj jeśli $warunek nie jest spełniony /
+np.
+($a > $b) ? a=8 : a=9;
+
+PRZEKIEROWANIE W JAVASCIPR:
+echo "<script type=\"text/javascript\">";
+        echo "window.location.href = 'admin_index_help.php';";
+        echo "</script>";
+
+
+*/
