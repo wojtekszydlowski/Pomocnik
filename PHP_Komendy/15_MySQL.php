@@ -1,5 +1,8 @@
 <?php
 
+#Gdy nie można zapisać w bazie danych daty 0000-00-00 należy wpisać w SQL:
+# SET GLOBAL sql_mode = '';
+
 #FUNCKJE DO WYKORZYSTANIA W MYSQL: https://www.w3schools.com/sql/sql_functions.asp
 
 
