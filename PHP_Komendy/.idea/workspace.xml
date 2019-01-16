@@ -2,7 +2,249 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfba174d-e767-4cb8-a725-23137fb31b40" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/cache/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/cache/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/logs/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/logs/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/favicon.ico" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/cache/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/cache/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/logs/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/logs/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/favicon.ico" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/cache/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/cache/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/logs/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/logs/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/favicon.ico" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/cache/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/cache/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/logs/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/logs/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/projekt_model-repository2.tar" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/projekt_model-repository2.tar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/projekt_model.tar.gz" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/projekt_model.tar.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/favicon.ico" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/cache/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/cache/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/logs/.gitkeep" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/logs/.gitkeep" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/projekt_form.tar.gz" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/projekt_form.tar.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/apple-touch-icon.png" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/apple-touch-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/favicon.ico" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/favicon.ico" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/.idea/WRO_PHP_W_01_Symfony.iml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/.idea/WRO_PHP_W_01_Symfony.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/README.md" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/AppCache.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/AppCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/AppKernel.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/autoload.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/check.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/config.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/config_test.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/config_test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/routing.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/security.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/services.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/phpunit.xml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/app/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/composer.json" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/composer.lock" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/AppBundle/AppBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/AppBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/AppBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/myFirstBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/myFirstBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/myFirstBundle/Resources/config/services.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/myFirstBundle/Resources/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/myFirstBundle/Resources/views/Default/index.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/myFirstBundle/Resources/views/Default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/myFirstBundle/myFirstBundle.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/src/myFirstBundle/myFirstBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/tests/myFirstBundle/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/tests/myFirstBundle/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/app.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/app_dev.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/config.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/robots.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/projekt_1/web/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/teoria.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/teoria.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/teoria2.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/1_Wstep_do_Symfony/teoria2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/README.md" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/AppCache.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/AppCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/AppKernel.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/Resources/views/form.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/Resources/views/form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/autoload.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/check.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/config.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/config_test.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/config_test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/routing.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/security.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/services.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/phpunit.xml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/app/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/composer.json" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/composer.lock" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/AppBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/Controller/firstController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/Controller/firstController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/Tests/Controller/firstControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/src/AppBundle/Tests/Controller/firstControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/app.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/app_dev.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/config.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/robots.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/1_Kontroler_podstawy_użycia/projekt_controler/web/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/2_Podstawy_routingu/form.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_1/2_Kontrolery_i_routing/2_Podstawy_routingu/form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/README.md" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/AppCache.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/AppCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/AppKernel.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/translations/messages.pl.xlf" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/translations/messages.pl.xlf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/create_randoms.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/create_randoms.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/repeat_sentence.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/repeat_sentence.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/show_all_article.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/show_all_article.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/show_all_article_nice.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/show_all_article_nice.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/show_article.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/Views/show_article.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/menu.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/menu.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/superbase.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/Resources/views/superbase.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/autoload.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/check.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/config.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/config_test.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/config_test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/routing.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/security.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/services.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/phpunit.xml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/app/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/composer.json" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/composer.lock" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/AppBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/Controller/viewsController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/Controller/viewsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/Tests/Controller/viewsControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/src/AppBundle/Tests/Controller/viewsControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/app.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/app_dev.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/config.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/robots.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/1_Widoki/projekt_view/web/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/2_Składnia_twiga/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/2_Składnia_twiga/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/3_Dołączanie_szablonów/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/3_Dołączanie_szablonów/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/4_Linki_i_assety/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/4_Linki_i_assety/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/5_Tłumaczenia/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/5_Tłumaczenia/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/teoria_twig.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_2/3_Widoki_i_Twig/teoria_twig.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/1_Doctrine/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/1_Doctrine/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/2_Model/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/2_Model/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/3_Encje/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/3_Encje/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/4_Relacje/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/4_Relacje/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/5_Zaawansowane/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/5_Zaawansowane/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/README.md" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/AppCache.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/AppCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/AppKernel.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/delete_author.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/delete_author.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/form.html" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/form_author.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/form_author.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/show_all_authors.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/show_all_authors.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/show_author.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/show_author.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/showeverything.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/showeverything.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/autoload.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/check.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/config.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/config_test.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/config_test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/routing.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/security.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/services.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/phpunit.xml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/composer.json" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/composer.lock" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/AppBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Controller/authorController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Controller/authorController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Controller/bookController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Controller/bookController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Entity/author/Author.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Entity/author/Author.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Entity/book/Book.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Entity/book/Book.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Repository/author/AuthorRepository.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Repository/author/AuthorRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Repository/book/BookRepository.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Repository/book/BookRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Tests/Controller/bookControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Tests/Controller/bookControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/app.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/app_dev.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/config.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/robots.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/web/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_doctrine.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_doctrine.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_doctrine_relacje.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_doctrine_relacje.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_formularze.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_formularze.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/1_Podstawy/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/1_Podstawy/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/2_Zaawansowane/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/2_Zaawansowane/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/README.md" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/AppCache.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/AppCache.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/AppKernel.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/default/index.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/default/index.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/new_form.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/new_form.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/showall.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/showall.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/showstatus.html.twig" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/showstatus.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/SymfonyRequirements.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/SymfonyRequirements.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/autoload.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/check.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/config.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/config_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/config_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/config_prod.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/config_prod.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/config_test.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/config_test.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/parameters.yml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/parameters.yml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/routing.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/routing_dev.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/routing_dev.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/security.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/security.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/services.yml" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/phpunit.xml.dist" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/phpunit.xml.dist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/composer.json" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/composer.lock" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/AppBundle.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/AppBundle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Controller/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Controller/tweetController.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Controller/tweetController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Entity/tweet/Tweet.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Entity/tweet/Tweet.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Repository/tweet/TweetRepository.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Repository/tweet/TweetRepository.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Tests/Controller/DefaultControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Tests/Controller/DefaultControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Tests/Controller/tweetControllerTest.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/src/AppBundle/Tests/Controller/tweetControllerTest.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/.htaccess" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/.htaccess" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/app.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/app_dev.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/app_dev.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/config.php" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/robots.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/web/robots.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/teoria_formularze.txt" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/teoria_formularze.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_2/Dzien_1/2_CRUD/readme.md" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_2/Dzien_1/2_CRUD/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_2/Dzien_2/3_Security/1_Prosta_autoryzacja/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_2/Dzien_2/3_Security/1_Prosta_autoryzacja/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_2/Dzien_2/3_Security/2_FosUserBundle/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_2/Dzien_2/3_Security/2_FosUserBundle/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_2/Dzien_2/3_Security/3_Nadpisywanie_widoków/.gitignore" afterPath="$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_2/Dzien_2/3_Security/3_Nadpisywanie_widoków/.gitignore" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,118 +259,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="40_Symfony_formularze.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/40_Symfony_formularze.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2695">
-              <caret line="162" column="9" lean-forward="false" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="14" />
-              <folding>
-                <element signature="e#7346#7403#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FilmController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Controller/FilmController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="651">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="69" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#97#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AuthorController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Controller/AuthorController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-483">
-              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-              <folding>
-                <element signature="e#40#97#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Actors.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Entity/Actors/Actors.php">
+      <file leaf-file-name="42_Uruchamianie_skryptu_w_tle" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/42_Uruchamianie_skryptu_w_tle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="39_Symfony_Doctrine.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/39_Symfony_Doctrine.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="1152" column="26" lean-forward="false" selection-start-line="1152" selection-start-column="26" selection-end-line="1152" selection-end-column="26" />
-              <folding>
-                <element signature="e#26255#26312#0#PHP" expanded="true" />
-                <marker date="1499887150093" expanded="true" signature="33557:33633" ph="SELECT p FRO... AppBundle" />
-                <marker date="1499887150093" expanded="true" signature="33925:34082" ph="..." />
-                <marker date="1499887150093" expanded="true" signature="33946:34064" ph="..." />
-                <marker date="1499887150093" expanded="true" signature="33972:34042" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Controller/ActorsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="65" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#97#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActorsRepository.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Repository/Actors/ActorsRepository.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-              <folding>
-                <marker date="1500057458696" expanded="true" signature="396:476" ph="SELECT p FRO... AppBundle" />
-                <marker date="1500057458696" expanded="true" signature="396:477" ph="SELECT p FRO... AppBundle" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="41_Symfony_filmy_przyklad" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/41_Symfony_filmy_przyklad">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show_all_actors.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/show_all_actors.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/start.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -205,10 +340,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="-11" />
-    <option name="width" value="1857" />
-    <option name="height" value="1092" />
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1855" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,6 +361,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -304,272 +440,6 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_form_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_Formularze" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_form_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_Formularze" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_form_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_Formularze" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_form_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_Formularze" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_form_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_Formularze" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_form_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_Formularze" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_form_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tweet" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_4" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="5_Formularze" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="projekt_form" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -783,452 +653,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Book" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Author" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Author" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WRO_PHP_W_01_Symfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="1_Zadania" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Tydzien_1" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Dzien_3" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="4_Model_i_Doctrine" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_model_wykladowca" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Book" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -1330,239 +754,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Repository" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Actors" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Actors" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projekt_film" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PHP_Komendy" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="PHP_Komendy" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../projekt_film" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../fakturaweb" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///home/wojciech/Workspace/WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_doctrine_relacje.txt" />
+    <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1577,17 +783,6 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
-      <node-interpreter value="project" />
-      <working-dir value="" />
-      <envs />
-      <scope-kind value="ALL" />
-      <method />
-    </configuration>
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
       <config-file value="" />
       <node-interpreter value="project" />
@@ -1671,14 +866,15 @@
       <workItem from="1499924121665" duration="24188000" />
       <workItem from="1500047620431" duration="708000" />
       <workItem from="1500048437936" duration="9751000" />
+      <workItem from="1547666283138" duration="290000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123885000" />
+    <option name="totallyTimeSpent" value="124175000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19946092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1686,18 +882,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1732,13 +928,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_formularze.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/teoria_formularze.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1746,34 +935,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/src/AppBundle/Entity/Tweet/Tweet.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1197">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/src/AppBundle/Repository/Tweet/TweetRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/app/Resources/views/Tweet/show_all_tweets.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/src/AppBundle/Controller/DefaultController.php" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/src/AppBundle/Entity/Tweet/Tweet.php" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/src/AppBundle/Repository/Tweet/TweetRepository.php" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/app/Resources/views/Tweet/show_all_tweets.html.twig" />
     <entry file="file://$PROJECT_DIR$/35_Symfony_teoria.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3633">
@@ -1782,13 +947,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/config/parameters.yml" />
     <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/form_author.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1803,13 +962,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Entity/Film/Film.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="84" column="37" lean-forward="false" selection-start-line="84" selection-start-column="20" selection-end-line="84" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Entity/Film/Film.php" />
     <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/src/AppBundle/Controller/bookController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1817,13 +970,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/base.html.twig" />
     <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/project_model/app/Resources/views/show_author.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1831,13 +978,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/app/Resources/views/Book/show_book.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="16" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/app/Resources/views/Book/show_book.html.twig" />
     <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form/app/Resources/views/new_form.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1882,101 +1023,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/newfilm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/showallfilm.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/show_film.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/app/Resources/views/Tweet/create_tweet.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/src/AppBundle/Controller/TweetController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="103" column="9" lean-forward="false" selection-start-line="96" selection-start-column="8" selection-end-line="103" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/app/Resources/views/Tweet/tweet_form.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/edit_actor.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="34" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/show_actor.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/newfilm.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/showallfilm.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/show_film.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/app/Resources/views/Tweet/create_tweet.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/src/AppBundle/Controller/TweetController.php" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_4/5_Formularze/projekt_form_wykladowca/app/Resources/views/Tweet/tweet_form.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/edit_actor.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/show_actor.html.twig" />
     <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/teoria_doctrine_relacje.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3024">
           <caret line="144" column="8" lean-forward="false" selection-start-line="144" selection-start-column="8" selection-end-line="144" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/app/Resources/views/Book/create_book.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="21" column="61" lean-forward="true" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Controller/BookController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/new_actor.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="30" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/start.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/app/Resources/views/Book/create_book.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Controller/BookController.php" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/new_actor.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/start.html.twig" />
     <entry file="file://$PROJECT_DIR$/12_OOP_przyklady.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1512">
@@ -2001,14 +1066,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/show_all_actors.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/show_all_actors.html.twig" />
     <entry file="file://$PROJECT_DIR$/38_Symfony_widoki_i_twig.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -2017,9 +1075,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Controller/FilmController.php" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/find_actor.html.twig" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Repository/Author/AuthorRepository.php" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Repository/Book/BookRepository.php" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Entity/Author/Author.php" />
+    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Controller/AuthorController.php" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Entity/Actors/Actors.php" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Controller/ActorsController.php" />
+    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Repository/Actors/ActorsRepository.php" />
     <entry file="file://$PROJECT_DIR$/40_Symfony_formularze.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2695">
+        <state relative-caret-position="18">
           <caret line="162" column="9" lean-forward="false" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="14" />
           <folding>
             <element signature="e#7346#7403#0#PHP" expanded="true" />
@@ -2027,102 +1094,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Controller/FilmController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="651">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="69" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/app/Resources/views/find_actor.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Repository/Author/AuthorRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Repository/Book/BookRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Entity/Author/Author.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1876">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../WRO_PHP_W_01_Symfony/1_Zadania/Tydzien_1/Dzien_3/4_Model_i_Doctrine/projekt_model_wykladowca/src/AppBundle/Controller/AuthorController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-483">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Entity/Actors/Actors.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/39_Symfony_Doctrine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="366">
           <caret line="1152" column="26" lean-forward="false" selection-start-line="1152" selection-start-column="26" selection-end-line="1152" selection-end-column="26" />
           <folding>
             <element signature="e#26255#26312#0#PHP" expanded="true" />
-            <marker date="1499887150093" expanded="true" signature="33557:33633" ph="SELECT p FRO... AppBundle" />
-            <marker date="1499887150093" expanded="true" signature="33925:34082" ph="..." />
-            <marker date="1499887150093" expanded="true" signature="33946:34064" ph="..." />
-            <marker date="1499887150093" expanded="true" signature="33972:34042" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Controller/ActorsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="65" selection-end-column="5" />
-          <folding>
-            <element signature="e#40#97#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../projekt_film/src/AppBundle/Repository/Actors/ActorsRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <marker date="1500057458696" expanded="true" signature="396:476" ph="SELECT p FRO... AppBundle" />
-            <marker date="1500057458696" expanded="true" signature="396:477" ph="SELECT p FRO... AppBundle" />
+            <marker date="1505723844238" expanded="true" signature="33557:33633" ph="SELECT p FRO... AppBundle" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/41_Symfony_filmy_przyklad">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/42_Uruchamianie_skryptu_w_tle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />

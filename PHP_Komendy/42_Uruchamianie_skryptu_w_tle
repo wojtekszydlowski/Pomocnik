@@ -1,0 +1,12 @@
+Skrypt wywołujący (np. proba.php)
+
+Trzeba użyć:
+exec("php proba2.php wartosc_parametru_1 wartosc_parametru 2"." > /dev/null 2>/dev/null &");
+
+Skrypt wywoływany (proba2.php)
+//pobranie pierwszego parametru
+$parm1 = $argv[1];
+//pobranie drugiego parametru
+//$parm2 = $argv[2];
+
+Pod $argv[0] jest nazwa skryptu (proba2.php).
