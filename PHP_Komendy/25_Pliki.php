@@ -10,6 +10,8 @@ $_SERVER['DOCUMENT_ROOT'] + nazwa naszego katalogu
 sudo chmod -R 777 ~/Workspace/fakturaweb/user/uploads/
 sudo chmod -R 777 /var/www/html/suplementytrisana/
 
+Na serwerze produkcyjnym: sudo chmod -R 777 /var/www/cashisback/blog/images/
+
 --------------------
 
 

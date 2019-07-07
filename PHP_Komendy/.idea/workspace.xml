@@ -329,6 +329,7 @@
         <option value="$PROJECT_DIR$/../../projekt_film/app/Resources/views/find_actor.html.twig" />
         <option value="$PROJECT_DIR$/../../projekt_film/src/AppBundle/Repository/Actors/ActorsRepository.php" />
         <option value="$PROJECT_DIR$/../../projekt_film/src/AppBundle/Controller/ActorsController.php" />
+        <option value="$PROJECT_DIR$/42_Uruchamianie_skryptu_w_tle" />
       </list>
     </option>
   </component>
@@ -341,9 +342,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="24" />
+    <option name="y" value="52" />
     <option name="width" value="1855" />
-    <option name="height" value="1056" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -866,15 +867,15 @@
       <workItem from="1499924121665" duration="24188000" />
       <workItem from="1500047620431" duration="708000" />
       <workItem from="1500048437936" duration="9751000" />
-      <workItem from="1547666283138" duration="290000" />
+      <workItem from="1547666283138" duration="502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124175000" />
+    <option name="totallyTimeSpent" value="124387000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <frame x="65" y="52" width="1855" height="1028" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19946092" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1089,7 +1090,7 @@
         <state relative-caret-position="18">
           <caret line="162" column="9" lean-forward="false" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="14" />
           <folding>
-            <element signature="e#7346#7403#0#PHP" expanded="true" />
+            <element signature="e#7346#7403#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
