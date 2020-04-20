@@ -12,6 +12,10 @@ sudo chmod -R 777 /var/www/html/suplementytrisana/
 
 Na serwerze produkcyjnym: sudo chmod -R 777 /var/www/cashisback/blog/images/
 
+
+#Kopiowanie katalogu z plikami z serwera na dysk lokalny
+scp -r root@151.80.43.96:/var/www/zumidesign/img/portfolio/ ~/Workspace/pliki/
+
 --------------------
 
 
