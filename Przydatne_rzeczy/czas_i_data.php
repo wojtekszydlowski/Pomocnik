@@ -34,3 +34,13 @@ $thirtydayago = $NewDate=Date('Y-m-d', strtotime("-30 days"));
 $later = new DateTime($currentdate);
 $earlier = new DateTime($thirtydayago); // $thirtydayago dowolną datą w formacie "YYYY-MM-DD"
 $diff = $later->diff($earlier)->format("%a");
+
+
+//sprawdza czy data jest zapisana poprawnie
+function validateDate($date, $format = 'Y-m-d')
+{
+    $d = DateTime::createFromFormat($format, $date);
+    // The Y ( 4 digits year ) returns TRUE for any integer with any number of digits so changing the comparison from == to === fixes the issue.
+    return $d && $d->format($format) === $date;
+}
+//wywołanie funkcji: np. validateDate('2013-13-01')

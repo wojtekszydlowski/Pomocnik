@@ -73,3 +73,7 @@ $query2 = Array(
 $usersdataid = $findrecord->insertRecord($table2, $query2);
 
 //---
+
+$table = "products_files";
+$where = "productid='$productid'";
+$findrecord->deleteAllRecords($table, $where);
