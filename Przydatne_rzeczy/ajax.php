@@ -11,7 +11,7 @@ if ($invoicestatus == 0 || $invoicestatus == 3) {$autoissuebutton = "<button typ
 //W ajax
 ?>
 <script>
-$('body').on('click' , '.autoissuebutton', function() {
+$('body').on('click' , '.autoissuebutton', function() { //to musi być zamiast $(".autoissuebutton").click(function(){
     var invoiceid = $(this).attr('data-invoiceid');
     $.ajax({
             type:'POST',
