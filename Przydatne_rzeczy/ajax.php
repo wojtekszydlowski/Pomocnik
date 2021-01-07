@@ -10,34 +10,35 @@ if ($invoicestatus == 0 || $invoicestatus == 3) {$autoissuebutton = "<button typ
 
 //W ajax
 ?>
-<script>
-$('body').on('click' , '.autoissuebutton', function() { //to musi być zamiast $(".autoissuebutton").click(function(){
-    var invoiceid = $(this).attr('data-invoiceid');
-    $.ajax({
-            type:'POST',
-            dataType:'JSON',
-            url:'ajax_changeinvoicestatus.php',
-            data:'invoiceid='+invoiceid,
-            success:function(data)
-            {
-                //var data=eval(data);
-                newinvoicestatus=data.newinvoicestatus;
-                invoiceid = data.invoiceid;
-                console.log (invoiceid);
-                console.log (newinvoicestatus);
-                if (newinvoicestatus == 1) {
-                    $("#invoicestatusid"+invoiceid).html('<button type="button" class="btn btn-info btn-xs mb-2">Oczekuje</button>');
-                    $('#autoissuebuttonid'+invoiceid).html('<button type="button" class="autoissuebutton mb-1 mt-1 mr-1 btn btn-xs btn-dark" title="Wróć fakturę do nierozliczonych" data-invoiceid="'+invoiceid+'"><i class="fas fa-file-download"></i></button>');
-                }
-                if (newinvoicestatus == 0) {
-                    $("#invoicestatusid"+invoiceid).html('<button type="button" class="btn btn-warning btn-xs mb-2">Nierozliczona</button>');
-                    $('#autoissuebuttonid'+invoiceid).html('<button type="button" class="autoissuebutton mb-1 mt-1 mr-1 btn btn-xs btn-success" title="Wystaw automatycznie fakturę" data-invoiceid="'+invoiceid+'"><i class="fas fa-file-upload"></i></button>');
-                }
+    <script>
+        $('body').on('click' , '.autoissuebutton', function() { //to musi być zamiast $(".autoissuebutton").click(function(){
+            var invoiceid = $(this).attr('data-invoiceid');
+            $.ajax({
+                type:'POST',
+                dataType:'JSON',
+                url:'ajax_changeinvoicestatus.php',
+                data:'invoiceid='+invoiceid,
+//            data: 'selectedtext='+selection+'&bookid='+bookid+'&chapterid='+chapterid,
+                success:function(data)
+                {
+                    //var data=eval(data);
+                    newinvoicestatus=data.newinvoicestatus;
+                    invoiceid = data.invoiceid;
+                    console.log (invoiceid);
+                    console.log (newinvoicestatus);
+                    if (newinvoicestatus == 1) {
+                        $("#invoicestatusid"+invoiceid).html('<button type="button" class="btn btn-info btn-xs mb-2">Oczekuje</button>');
+                        $('#autoissuebuttonid'+invoiceid).html('<button type="button" class="autoissuebutton mb-1 mt-1 mr-1 btn btn-xs btn-dark" title="Wróć fakturę do nierozliczonych" data-invoiceid="'+invoiceid+'"><i class="fas fa-file-download"></i></button>');
+                    }
+                    if (newinvoicestatus == 0) {
+                        $("#invoicestatusid"+invoiceid).html('<button type="button" class="btn btn-warning btn-xs mb-2">Nierozliczona</button>');
+                        $('#autoissuebuttonid'+invoiceid).html('<button type="button" class="autoissuebutton mb-1 mt-1 mr-1 btn btn-xs btn-success" title="Wystaw automatycznie fakturę" data-invoiceid="'+invoiceid+'"><i class="fas fa-file-upload"></i></button>');
+                    }
 
-            }
+                }
+            });
         });
-    });
-</script>
+    </script>
 
 <?php
 //Plik ajaz_changeinvoicestatus.php
